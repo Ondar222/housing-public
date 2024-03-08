@@ -1,0 +1,42 @@
+.container_programs {
+    height: 1080px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.first_block_programs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+ 
+  
+}
+
+.title_programs  {
+    color: #404040;
+    /* font-size: 48px; */
+    text-align: center;
+    width: 100%;
+}
+
+.paragraph_programs {
+    text-align: center;
+    color: #374754;
+}
+
+
+.second_block_programs {
+  margin-top: 40px;
+  
+}
+
+.second_table_programs {
+    margin-top: 20px;
+}
+
+.Card_programs_block {
+    background: #F1F2F4;
+}
