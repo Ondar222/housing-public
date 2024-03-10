@@ -1,9 +1,22 @@
-.container_programs {
-    height: 1080px;
+.Catalog_CP_Page {
+ text-align: center;
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
 
-    margin-top: 20px;
-    margin-bottom: 20px;
+.Block_CP_Page {
+    text-align: center;
+}
 
+
+.Title_CP_Page {
+    color: #404040;
+    font-size: 48px;
+}
+
+.Second_Title_CP_Page {
+    color: #979797;
+    font-size: 31px;
 }
 
 .first_block_programs {
@@ -39,4 +52,69 @@
 
 .Card_programs_block {
     background: #F1F2F4;
+}
+
+
+
+
+/* ///CatalogProgComponents */
+
+.block_catalogs_programs {
+    text-align: center;
+}
+
+.second_card_cardprog {
+    /* background-color: #2091F9; */
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.second_card_cardprog:hover { 
+    transform: scale(1.1);
+    background: #2091F9;
+    /* color: #F1F2F4; */
+}
+
+.conditions:hover {
+    color: #F1F2F4;
+}
+
+/* .second_card_cardprog_heading_prog:hover {
+  color: #F1F2F4;
+} */
+
+.second_card_cardprog_paragraph {
+    color: #374754;
+}
+
+.second_card_cardprog_heading:hover {
+    cursor: pointer;
+    color: #374754;
+}
+
+.second_card_cardprog_paragraph:hover {
+    color: #374754;
+}
+
+.button_catalog_programs {
+    cursor: pointer;
+    width: 255px;
+    height: 56px;
+  border-radius: 35px;
+  transition: all 3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear; 	
+  text-transform: uppercase;
+}
+
+.button_catalog_programs:hover {
+    transform: scale(1.1);
+    background: #F1F2F4;
+    color: #fff;
+    transition: all 3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 	
+    text-transform: all .3s linear; 
+
 }

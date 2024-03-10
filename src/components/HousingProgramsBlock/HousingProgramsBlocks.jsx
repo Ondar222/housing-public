@@ -2,10 +2,11 @@ import React from "react";
 import { Button, Flex } from 'antd';
 import { CheckOutlined } from "@ant-design/icons";
 import { Image } from 'antd';
+import ProgramBlock from "../Programs/ProgramBlock";
 
 const HousingProgramsBlocks = () => {
     return (
-        <div className="housiung_programs_container" style={{ height: "1080px", background: "white" }}>
+        <div className="housiung_programs_container" style={{  background: "white" }}>
             <div className="housiung_programs_info_block" style={{ margin: "0 auto", background: "white", width: "80%", paddingTop: "20px" }}>
                 <div style={{ display: "flex", flexDirection: "column", textAlign: "center", gap: "20px" }}>
                     <div style={{ width: "500px", height: "104px", margin: "0 auto", textAlign: "center" }}>
@@ -30,14 +31,15 @@ const HousingProgramsBlocks = () => {
 
                 </div>
             </div>
-            <div style={{display: "block", justifyContent: "center"}}>
-                <Image
-                    width={900}
-                    height={450}
+            <div style={{display: "flex", justifyContent: "center"}}>
+                <Image 
+                    // width={1178}
+                    // height={450}
                     src="./public/img/main-backround.png"
                     preview={false}
                 />
             </div>
+        
         </div>
     )
 }

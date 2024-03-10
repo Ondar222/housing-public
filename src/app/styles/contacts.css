@@ -1,0 +1,106 @@
+.Container_contactsPage {
+    margin: 0 auto;
+}
+
+
+.Block_contactsPage {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.Title_CP {
+ color: #404040;
+ font-size: 48px;
+}
+
+.Second_Title_CP {
+ color: #979797;
+ font-size: 28px;
+ width: 50%;
+ margin: 0 auto;
+}
+
+
+
+
+.Container_contactsBlock {
+ margin: o auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 20px;
+ margin-bottom: 100px;
+}
+
+.Card_contactsBlock {
+    width: 453px;
+    height: 100%;
+}
+
+.Form_contactsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Form_contactsBlock_Button {
+    width: 30%;
+}
+
+.ContactsBlock_second_block {
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+ font-size: 1.25rem;
+ font-weight: bold;
+}
+
+.Location_class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Location_logo {
+    justify-content: center;
+
+}
+
+.Location_class_paragraph {
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+
+.Phone_class {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.Phone_logo {
+    justify-content: center;
+    color: #2091F9;
+}
+
+.Phone_class_paragraph {
+    font-size: 16px;
+    font-weight: normal;
+}
+.Email_class {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.Email_class_paragraph {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.Email_class_logo {
+    justify-content: center;
+    color: #2091F9;
+}
