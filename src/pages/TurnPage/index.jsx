@@ -6,9 +6,9 @@ import AddInformationBlock from "../../components/AddInformation/AddInformationB
 
 const TurnPage = () => {
     return (
-        <div style={{display: 'flex',flexDirection: "column", gap: "20px", height: "100%"}}>
-            <TurnBlock />      
-                <Snils />       
+        <div style={{ display: 'flex', flexDirection: "column", gap: "20px", height: "100%" }}>
+            <TurnBlock />
+            <Snils />
             <AddInformationBlock />
         </div>
 

@@ -9,7 +9,7 @@ import ResetettlementPage from "../../pages/ Resettlement";
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/programs" element={<HousingProgramsPage />} />
-      <Route path="/turn" element={<TurnPage />} />
+      <Route path="/queue" element={<TurnPage />} />
       <Route path="/contacts" element={<ContactsPage />} />
       <Route path="/resettlements" element={<ResetettlementPage />} />
     </Routes>

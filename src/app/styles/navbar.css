@@ -21,9 +21,10 @@
 .menu {
     display: flex;
     gap: 20px;
+    list-style: none;
 }
 
-.menuList {
+.menu_list {
     list-style: none;
 }
 
