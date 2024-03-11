@@ -76,7 +76,7 @@ const DescriptionProgramsBlock = () => {
                 }}
                 tabList={tabListNoTitle}
                 activeTabKey={activeTabKey2}
-                tabBarExtraContent={<Button type='primary'>
+                tabBarExtraContent={<Button type='primary' style={{background: "#4F46E5"}}>
                     Подать заявку
                     <RightOutlined  />
                 </Button>}

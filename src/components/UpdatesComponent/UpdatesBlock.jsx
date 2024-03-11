@@ -54,27 +54,3 @@ export default UpdatesBlock;
 
 
 
-{/* <Col span={10}>
-<Card bordered={false} >
-    <h3>Узнать свою очередь</h3>
-    <p>Выполните несколько простых шагов:
-        Перейти во вкладку "Моя очередь"
-        Введите свои ФИО (СНИЛС)
-        В новом окне будет результат поиска</p>
-    <Button type="primary">
-        Узнать
-    </Button>
-</Card>
-</Col> */}
-
-
-
-{/* <Col span={10}>
-            
-<img
-    width={510}
-    height={220}
-    src="./public/img/macbook.png">
-</img>
-
-</Col> */}

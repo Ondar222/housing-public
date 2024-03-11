@@ -34,6 +34,10 @@
     align-items: center;
 }
 
+.location_class >a {
+    width: 45%;
+}
+
 .location_class >a,
 .phone_class >a {
     color: #fafafa;

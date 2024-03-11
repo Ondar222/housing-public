@@ -3,6 +3,7 @@ import App from "../../App";
 import HousingProgramsPage from "../../pages/HousingProgramsPage";
 import TurnPage from "../../pages/TurnPage";
 import ContactsPage from "../../pages/ContactsPage";
+import ResetettlementPage from "../../pages/ Resettlement";
   
   const Router = () =>
     <Routes>
@@ -10,6 +11,7 @@ import ContactsPage from "../../pages/ContactsPage";
       <Route path="/programs" element={<HousingProgramsPage />} />
       <Route path="/turn" element={<TurnPage />} />
       <Route path="/contacts" element={<ContactsPage />} />
+      <Route path="/resettlements" element={<ResetettlementPage />} />
     </Routes>
   
   

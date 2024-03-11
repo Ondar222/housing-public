@@ -10,6 +10,7 @@ import '../src/app/styles/programs.css'
 import '../src/app/styles/contacts.css'
 import '../src/app/styles/navbar.css'
 import '../src/app/styles/footer.css'
+import '../src/app/styles/modalEntrance.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

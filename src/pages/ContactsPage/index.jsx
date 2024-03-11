@@ -33,10 +33,8 @@ const ContactsPage = () => {
                     Slate is designed for freelancers</h4>
             </div>
 
-            <div>
-
            <ContactsBlock />
-            </div>
+
             <AddInformationBlock />
 
 

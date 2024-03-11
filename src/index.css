@@ -79,6 +79,9 @@ button:focus-visible {
   bottom: -10px;
 }
 
+html, body {
+  margin: 8;
+}
 
 
 

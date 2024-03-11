@@ -12,8 +12,8 @@ const AddInformationBlock = () => (
     <div>
         <div style={{ margin: "0 auto", display: "flex", flexDirection: "column", justifyContent: 'center' }}>
             <div style={{ textAlign: "center", width: "762px", height: "222px", justifyContent: "center", display: "flex", flexDirection: 'column', margin: "0 auto" }}>
-                <h1 style={{ fontSize: "48px" }}>Дополнительная информация</h1>
-                <p style={{ fontSize: '34px' }}>Ссылки на сайты и электронные системы связанные
+                <h1 style={{ fontSize: "48px", fontWeight: "normal" }}>Дополнительная информация</h1>
+                <p style={{ fontSize: '28px', fontWeight: "normal" }}>Ссылки на сайты и электронные системы связанные
                     с жилищными программами</p>
             </div>
 

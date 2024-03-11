@@ -2,8 +2,11 @@ import React from 'react';
 import { Button, Card, Col, Row } from 'antd';
 import { CheckOutlined } from '@ant-design/icons';
 
-const Mortgage = () => (
-    <Row gutter={24} style={{marginTop: "50px"}}>
+
+
+const Mortgage = () => {
+return(
+<Row gutter={24} style={{marginTop: "50px"}}>
         <Col span={8}>
             <Card style={{ width: "100%", height: "100%" }} bordered={false}>
                 <div style={{ display: "flex", flexDirection: "row", gap: "10px", background: "#4FB1FF", paddingLeft: "20px" }}>
@@ -38,11 +41,12 @@ const Mortgage = () => (
                     <h4>Подача документов до:</h4>
                     <p>01.01.2025</p>
                 </div>
-                <Button>
+                <Button type="primary" ghost onClick={() => setOpen(true)}>
                     Получить консультацию
                 </Button>
+           
             </Card>
         </Col>
     </Row>
-);
+)};
 export default Mortgage;

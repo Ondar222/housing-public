@@ -12,11 +12,13 @@
 .Title_CP_Page {
     color: #404040;
     font-size: 48px;
+    font-weight: normal;
 }
 
 .Second_Title_CP_Page {
     color: #979797;
     font-size: 31px;
+    font-weight: normal;
 }
 
 .first_block_programs {
@@ -32,6 +34,8 @@
     color: #404040;
     /* font-size: 48px; */
     text-align: center;
+    font-weight: bold;
+    
     width: 100%;
 }
 

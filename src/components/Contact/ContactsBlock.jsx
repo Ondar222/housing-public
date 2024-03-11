@@ -12,7 +12,7 @@ const ContactsBlock = () => {
     return (
         <div className="Container_contactsBlock">
             <Card className="Card_contactsBlock" >
-                <h1 style={{ textAlign: "center" }}>Напишите нам</h1>
+                <h1 style={{ textAlign: "center", fontWeight: 'bold', fontSize: "20px" }}>Напишите нам</h1>
                 <Form className="Form_contactsBlock" onFinish={onFinish}>
                     <Input placeholder="Your name" />
 
