@@ -46,7 +46,9 @@
     gap: 50px;
 }
 .Form_contactsBlock_Button {
-    width: 30%;
+    width: 145px;
+    height: 56px;
+    border-radius: 36px;
 }
 
 .ContactsBlock_second_block {

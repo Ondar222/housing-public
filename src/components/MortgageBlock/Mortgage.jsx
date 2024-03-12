@@ -7,17 +7,17 @@ import { Link } from 'react-router-dom';
 
 const Mortgage = () => {
     return (
-        <Row gutter={24} style={{ marginTop: "50px" }}>
+        <Row className='mortgage_class'>
             <Col span={8}>
-                <Card style={{ width: "100%", height: "100%" }} bordered={false}>
-                    <div style={{ display: "flex", flexDirection: "row", gap: "10px", background: "#4FB1FF", paddingLeft: "20px" }}>
+                <Card className='mortgage_class_left_block' bordered={false}>
+                    <div className='mg_title_left_block'>
                         <CheckOutlined /> <p>Действующая программа</p>
                     </div>
 
 
-                    <div style={{ display: "flex", marginTop: "20px" }}>
-                        <div style={{ width: "200px", height: "200px", margin: "0 auto", border: "1px #4FB1FF solid" }}>
-                            <p style={{ textAlign: "center", marginTop: "50px" }}>Стоковое изображение
+                    <div className='mg_img'>
+                        <div className='mg_img_container'>
+                            <p>Стоковое изображение
                                 размер 200х200</p>
                         </div>
                     </div>

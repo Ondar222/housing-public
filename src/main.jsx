@@ -11,6 +11,8 @@ import '../src/app/styles/contacts.css'
 import '../src/app/styles/navbar.css'
 import '../src/app/styles/footer.css'
 import '../src/app/styles/modalEntrance.css'
+import '../src/app/styles/inn.css'
+import '../src/app/styles/queue.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

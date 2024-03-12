@@ -4,8 +4,8 @@ import { Card, Col, Row } from 'antd';
 
 const TurnBlock = () => {
     return (
-        <div style={{ display: "flex", flexDirection: "row", width: "95%", marginTop: "20px", justifyContent: "center" }}>
-            <Row style={{ display: "flex", justifyContent: "space-between" }} gutter={16}>
+        <div className="queue_class">
+            <Row className="container_queue_class" gutter={16}>
                 <Col span={14}>
                     <Card bordered={false}>
                         <Typography.Title level={1} >Узнать свою очередь</Typography.Title>
@@ -14,12 +14,12 @@ const TurnBlock = () => {
                         <Typography.Paragraph style={{ fontSize: "28px" }}>2. Введите свои ФИО (СНИЛС)</Typography.Paragraph>
                         <Typography.Paragraph style={{ fontSize: "28px" }}>3. В новом окне будет результат поиска</Typography.Paragraph>
 
-                        <Button type="primary" style={{ width: "236px", height: "60px", borderRadius: "50px" }}>
+                        <Button className="button_queue_class" type="primary">
                             Узнать
                         </Button>
                     </Card>
                 </Col>
-                <Col span={10} style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                <Col className="img_queue_class" span={10}>
 
                     <Image
                         preview={false}

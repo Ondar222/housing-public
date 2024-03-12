@@ -4,7 +4,7 @@ import { Button, Card, Col, Row } from 'antd';
 
 
 const CatalogProgComponents = () => (
-    <Row className='block_catalogs_programs' justify={"space-between"} gutter={[40, 40]}>
+    <Row className='block_catalogs_programs' justify={"space-between"}  gutter={[40, 40]}>
         <Col span={6}>
             <Card className='second_card_cardprog' bordered={true}>
                 <div>

@@ -14,14 +14,14 @@ const ContactsBlock = () => {
             <Card className="Card_contactsBlock" >
                 <h1 style={{ textAlign: "center", fontWeight: 'bold', fontSize: "20px" }}>Напишите нам</h1>
                 <Form className="Form_contactsBlock" onFinish={onFinish}>
-                    <Input placeholder="Your name" />
+                    <Input placeholder="Фамилия Имя Отчество" />
 
-                    <Input placeholder="Your email" />
+                    <Input placeholder="Ваш email" />
 
-                    <Input style={{ height: "150px" }} placeholder="Your Message" />
+                    <Input style={{ height: "150px" }} placeholder="Ваше обращение" />
 
                     <Button type="primary" htmlType="submit" className="Form_contactsBlock_Button">
-                        Отправить
+                        Send
                     </Button>
                 </Form>
             </Card>
