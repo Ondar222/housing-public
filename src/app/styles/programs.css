@@ -118,6 +118,7 @@
 
 .Card_programs_block {
     background: #F1F2F4;
+    
 }
 
 
@@ -126,22 +127,31 @@
 /* ///CatalogProgComponents */
 
 .block_catalogs_programs {
+    display: flex;
+    flex-direction: row;
+   
     text-align: center;
 }
 
 .second_card_cardprog {
     /* background-color: #2091F9; */
+
     transition: 1s;
     cursor: pointer;
-    min-width: 335px;
+    min-width: 280px;
     height: 470px;
+    -webkit-transition: all 1s ease;;
+    -moz-transition: all 1s ease;;
+    -o-transition: all 1s ease;;
+    transition: all 1s ease;
+    overflow: hidden; 
 }
 
 .second_card_cardprog:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
     background: #2091F9;
     /* height: 670px; */
-    transition-duration: 2000ms;
+    transition-duration: 1000ms;
     /* color: #F1F2F4; */
 }
 
@@ -173,19 +183,15 @@
 
 .button_catalog_programs {
     cursor: pointer;
-    width: 255px;
+    width: 205px;
     height: 56px;
     border-radius: 35px;
-    transition: all 3s linear;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
-    text-transform: uppercase;
 }
 
 .button_catalog_programs:hover {
     /* transform: scale(1.1); */
-    background: #F1F2F4;
-    color: #fff;
+    background: #F1F2F4 !important;
+    color: black !important;
     transition: all 3s linear;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;

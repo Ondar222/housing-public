@@ -1,0 +1,42 @@
+.container_addInfo {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleBlock_addInfo {
+    text-align: center;
+    width: 762px;
+    height: 222px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.titleBlock_addInfo h1 {
+    font-size: 48px !important;
+    font-weight: normal !important;
+}
+
+.titleBlock_addInfo p {
+    font-size: 28px !important;
+    font-weight: normal !important;
+}
+
+.addBlocks {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin: 0 auto;
+}
+
+.button_Vk {
+    width: 236px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

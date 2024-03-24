@@ -31,7 +31,7 @@ const NavBars = () => {
             </div>
 
             <Flex gap="small" wrap="wrap" className="container_button_navbar">
-                <Button onClick={() => setOpen(true)} className="button_navbar" type="primary">Вход</Button>
+                <Button onClick={() => setOpen(false)} className="button_navbar" type="primary">Вход</Button>
                 {
                     open && (
                         <div className="overlay">

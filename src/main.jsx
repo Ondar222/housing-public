@@ -13,6 +13,7 @@ import '../src/app/styles/footer.css'
 import '../src/app/styles/modalEntrance.css'
 import '../src/app/styles/inn.css'
 import '../src/app/styles/queue.css'
+import '../src/app/styles/addInfoBlocks.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

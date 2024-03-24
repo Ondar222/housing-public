@@ -21,7 +21,7 @@ const ContactsBlock = () => {
                     <Input style={{ height: "150px" }} placeholder="Ваше обращение" />
 
                     <Button type="primary" htmlType="submit" className="Form_contactsBlock_Button">
-                        Send
+                        Отправить
                     </Button>
                 </Form>
             </Card>
