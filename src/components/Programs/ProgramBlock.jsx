@@ -11,7 +11,7 @@ const ProgramBlock = () => {
                 <Col span={8}>
                     <Card className="Card_programs_block" bordered={true}>
                         <h5 style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
-                            <img src="./img/federal-icon.svg" alt="" />
+                            <img src="/img/federal-icon.svg" alt="" />
                             Федеральная
                         </h5>
                         <h3>Льготная ипотека для IT-специалистов</h3>
@@ -21,7 +21,7 @@ const ProgramBlock = () => {
                 <Col span={8}>
                     <Card className="Card_programs_block" bordered={true}>
                         <h5 style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
-                            <img src="./img/federal-icon.svg" alt="" />
+                            <img src="/img/federal-icon.svg" alt="" />
                             Федеральная
                         </h5>
                         <h3>Льготная ипотека для IT-специалистов</h3>
@@ -31,7 +31,7 @@ const ProgramBlock = () => {
                 <Col span={8}>
                     <Card className="Card_programs_block" bordered={true}>
                         <h5 style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
-                            <img src="./img/federal-icon.svg" alt="" />
+                            <img src="/img/federal-icon.svg" alt="" />
                             Федеральная
                         </h5>
                         <h3>Льготная ипотека для IT-специалистов</h3>

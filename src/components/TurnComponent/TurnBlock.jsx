@@ -26,7 +26,7 @@ const TurnBlock = () => {
                         width={624}
                         height={350}
 
-                        src="./img/macbook.png"
+                        src="/img/macbook.png"
                     />
 
                 </Col>

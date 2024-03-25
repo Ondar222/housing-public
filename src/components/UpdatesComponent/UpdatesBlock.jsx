@@ -15,7 +15,7 @@ const UpdatesBlock = () => {
                     <img
                         width={610}
                         height={520}
-                        src="./img/updates-bg.png">
+                        src="/img/updates-bg.png">
                     </img>
 
                 </Col>

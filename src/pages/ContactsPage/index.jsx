@@ -29,8 +29,6 @@ const ContactsPage = () => {
         <div className="Container_contactsPage">
             <div className="Block_contactsPage">
                 <h2 className="Title_CP">Наши контакты</h2>
-                <h4 className="Second_Title_CP">Most calendars are designed for teams.
-                    Slate is designed for freelancers</h4>
             </div>
 
            <ContactsBlock />
