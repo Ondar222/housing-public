@@ -8,7 +8,7 @@ const NavBars = () => {
         //отдельно
         <div className="container_navbar">
             <div className="block_container_navbar">
-                <img src="./public/img/merya-logo.svg" width={31} height={31}></img>
+                <img src="./img/merya-logo.svg" width={31} height={31}></img>
                 <h1 className="title_navbar">
                     ИС Жилищных программ
                 </h1>

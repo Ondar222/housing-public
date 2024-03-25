@@ -32,7 +32,7 @@ const HousingProgramsBlocks = () => {
             </div>
             <div className="programs_img_class">
                 <Image 
-                    src="./public/img/main-backround.png"
+                    src="./img/main-backround.png"
                     preview={false}
                 />
             </div>

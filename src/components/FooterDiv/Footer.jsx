@@ -5,16 +5,16 @@ const Footer = () => {
         <div className="container_footer">
             <div className="footer_first_block">
                 <div className="footer_logo_class" >
-                    <img src="./public/img/merya-logo.svg" width={100} height={100} />
+                    <img src="./img/merya-logo.svg" width={100} height={100} />
                     <h3>Мэрия города Кызыла</h3>
                 </div>
                 <div className="footer_second_block">
                     <div className="footer_location_class">
-                    <img src="./public/img/location-icon.svg" width={45} height={45} />
+                    <img src="./img/location-icon.svg" width={45} height={45} />
                     <a href="/"> г. Кызыл, ул. Бухтуева 3</a>
                     </div>
                     <div className="footer_mobile_class">
-                    <img src="./public/img/mobile-icon.svg" width={45} height={45} />
+                    <img src="./img/mobile-icon.svg" width={45} height={45} />
                     <a href="/"> (239) 555-0108</a>
                     </div>
                 </div>
@@ -115,12 +115,12 @@ export default Footer;
 //                 <Col span={9}>
 //                     <div className="first_block_footer">
 //                         <div className="location_class">
-//                             <img src="./public/img/location-icon.svg" width={46} height={46} />
+//                             <img src="./img/location-icon.svg" width={46} height={46} />
 //                             <a href="/"> 7480 Mockingbird Hill undefined</a>
 //                         </div>
 
 //                         <div className="phone_class">
-//                             <img src="./public/img/mobile-icon.svg" width={46} height={46} />
+//                             <img src="./img/mobile-icon.svg" width={46} height={46} />
 //                             <a href="/"> (239) 555-0108</a>
 //                         </div>
 
