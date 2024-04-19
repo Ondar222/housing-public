@@ -15,6 +15,7 @@ const NavBars = () => {
             </div>
 
             <div className="menu">
+                <div className="menu__container">
                 <li className="menuList">
                     <a className="link_menu" href="/">Главная</a>
                 </li>
@@ -28,6 +29,7 @@ const NavBars = () => {
                     <a className="link_menu" href="/resettlements">Переселение</a></li>
                 <li className="menuList" >
                     <a className="link_menu" href="/contacts">Контакты</a></li>
+                </div>
             </div>
 
             <Flex gap="small" wrap="wrap" className="container_button_navbar">

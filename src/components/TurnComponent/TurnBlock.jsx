@@ -7,8 +7,8 @@ const TurnBlock = () => {
         <div className="queue_class">
             <Row className="container_queue_class" gutter={16}>
                 <Col span={14}>
-                    <Card bordered={false}>
-                        <Typography.Title level={1} >Узнать свою очередь</Typography.Title>
+                    <Card className="queue_class__card" bordered={false}>
+                        <Typography.Title className="queue_class__title" level={1} >Узнать свою очередь</Typography.Title>
                         <Typography.Paragraph style={{ fontSize: "28px" }}>Выполните несколько простых шагов:</Typography.Paragraph>
                         <Typography.Paragraph style={{ fontSize: "28px" }}>1. Перейти во вкладку "Моя очередь"</Typography.Paragraph>
                         <Typography.Paragraph style={{ fontSize: "28px" }}>2. Введите свои ФИО (СНИЛС)</Typography.Paragraph>

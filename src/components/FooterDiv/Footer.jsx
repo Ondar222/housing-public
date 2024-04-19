@@ -5,17 +5,17 @@ const Footer = () => {
         <div className="container_footer">
             <div className="footer_first_block">
                 <div className="footer_logo_class" >
-                    <img src="/img/merya-logo.svg" width={100} height={100} />
+                    <img className="footer_img_class" src="/img/merya-logo.svg" width={100} height={100} />
                     <h3>Мэрия города Кызыла</h3>
                 </div>
                 <div className="footer_second_block">
                     <div className="footer_location_class">
-                    <img src="/img/location-icon.svg" width={45} height={45} />
-                    <a href="/"> г. Кызыл, ул. Бухтуева 3</a>
+                    <img className="footer_location_img" src="/img/location-icon.svg" width={45} height={45} />
+                    <a className="footer_location_text" href="/"> г. Кызыл, ул. Бухтуева 3</a>
                     </div>
                     <div className="footer_mobile_class">
-                    <img src="/img/mobile-icon.svg" width={45} height={45} />
-                    <a href="/"> (239) 555-0108</a>
+                    <img className="footer_mobile_img" src="/img/mobile-icon.svg" width={45} height={45} />
+                    <a className="footer_mobile_text" href="/"> (239) 555-0108</a>
                     </div>
                 </div>
             </div>

@@ -8,13 +8,16 @@ import NavBars from './components/NavBar/NavBars';
 import Footer from './components/FooterDiv/Footer';
 import '../src/app/styles/programs.css'
 import '../src/app/styles/contacts.css'
+import '../src/app/styles/housingPrograms.css'
 import '../src/app/styles/navbar.css'
 import '../src/app/styles/footer.css'
+import '../src/app/styles/ubdates.css'
 import '../src/app/styles/modalEntrance.css'
 import '../src/app/styles/inn.css'
 import '../src/app/styles/queue.css'
+import '../src/app/styles/turn.css'
 import '../src/app/styles/addInfoBlocks.css'
-
+import '../src/app/styles/action.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

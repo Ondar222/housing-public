@@ -1,64 +1,59 @@
 .housiung_programs_info_block {
- margin: 0 auto;
- background: white;
- width: 80%;
- padding-top: 20px;
+    margin: 0 auto;
+    background: white;
+    width: 80%;
+    padding-top: 20px;
 }
 
 .programs_info_block_title_block {
- display: flex;
- flex-direction: column;
- text-align: center;
- gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
 }
 
 .programs_buttons_container {
- width: 500px;
- height: 104px;
- margin: 0 auto;
- text-align: center;
+    width: 500px;
+    height: 104px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-
-
 .programs_info_block_title_block h4 {
- color: #D9D9D9;
- font-size: 15px;
- height: 100%;
- font-weight: normal;
+    color: #d9d9d9;
+    font-size: 15px;
+    height: 100%;
+    font-weight: normal;
 }
 
 .programs_flex_application {
- display: flex;
- flex-direction: row;
- margin: 0 auto;
- width: 576px;
- height: 109px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 576px;
+    height: 109px;
 }
 
 .programs_button_application {
- background: #34C759;
- margin-right: 20px;
- width: 263px;
- height: 76px;
- font-weight: bold;
- padding-top: 25px;
+    background: #34c759;
+    margin-right: 20px;
+    width: 263px;
+    height: 76px;
+    font-weight: bold;
+    padding-top: 25px;
 }
 
 .programs_button_queue_application {
- width: 263px;
- height: 76px;
- padding-top: 25px;
- font-weight: bold;
+    width: 263px;
+    height: 76px;
+    padding-top: 25px;
+    font-weight: bold;
 }
 
 .programs_img_class {
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-
-
-
 
 .Catalog_CP_Page {
     text-align: center;
@@ -69,7 +64,6 @@
 .Block_CP_Page {
     text-align: center;
 }
-
 
 .Title_CP_Page {
     color: #404040;
@@ -88,8 +82,6 @@
     flex-direction: column;
     margin: 0 auto;
     width: 500px;
-
-
 }
 
 .title_programs {
@@ -106,10 +98,8 @@
     color: #374754;
 }
 
-
 .second_block_programs {
     margin-top: 40px;
-
 }
 
 .second_table_programs {
@@ -117,19 +107,15 @@
 }
 
 .Card_programs_block {
-    background: #F1F2F4;
-    
+    background: #f1f2f4;
 }
-
-
-
 
 /* ///CatalogProgComponents */
 
 .block_catalogs_programs {
     display: flex;
     flex-direction: row;
-   
+
     text-align: center;
 }
 
@@ -140,23 +126,23 @@
     cursor: pointer;
     min-width: 280px;
     height: 470px;
-    -webkit-transition: all 1s ease;;
-    -moz-transition: all 1s ease;;
-    -o-transition: all 1s ease;;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
     transition: all 1s ease;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .second_card_cardprog:hover {
     transform: scale(0.9);
-    background: #2091F9;
+    background: #2091f9;
     /* height: 670px; */
     transition-duration: 1000ms;
     /* color: #F1F2F4; */
 }
 
 .conditions:hover {
-    color: #F1F2F4;
+    color: #f1f2f4;
 }
 
 /* .second_card_cardprog_heading_prog:hover {
@@ -178,7 +164,7 @@
 
 .second_card_cardprog:hover .button_catalog_programs {
     background: #fff;
-    color: #2091F9;
+    color: #2091f9;
 }
 
 .button_catalog_programs {
@@ -190,15 +176,13 @@
 
 .button_catalog_programs:hover {
     /* transform: scale(1.1); */
-    background: #F1F2F4 !important;
+    background: #f1f2f4 !important;
     color: black !important;
     transition: all 3s linear;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
-    text-transform: all .3s linear;
-
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    text-transform: all 0.3s linear;
 }
-
 
 .mortgage_class {
     margin-top: 50px;
@@ -210,11 +194,11 @@
 }
 
 .mg_title_left_block {
- display: flex;
- flex-direction: row;
- gap: 10px;
- background: #4FB1FF;
- padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background: #4fb1ff;
+    padding-left: 20px;
 }
 
 .mg_img {
@@ -223,13 +207,67 @@
 }
 
 .mg_img_container {
- width: 200px;
- height: 200px;
- margin: 0 auto;
- border: 1px #4FB1FF solid ;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px #4fb1ff solid;
 }
 
 .mg_img_container {
     text-align: center;
     margin-top: 50px;
+}
+
+@media (max-width: 430px) {
+    .container_programs {
+        width: 27rem !important;
+
+    }
+    .first_block_programs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title_programs {
+        width: 60%;
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .paragraph_programs {
+        width: 55%;
+    }
+
+    .second_block_programs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .second_col_programs {
+     
+    }
+
+    .Card_programs_block {
+        width: 280px;
+        height: 250px;
+    }
+
+    .programs__term {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .programs__term__col {
+        
+    }
+
+    .programs__term__card {
+        display: flex;
+        flex-direction: row;
+        width: 280px;
+    }
 }

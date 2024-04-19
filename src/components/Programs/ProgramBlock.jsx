@@ -8,7 +8,7 @@ const ProgramBlock = () => {
                 <p className="paragraph_programs">Краткое описание всех жилищных программ мэрии города Кызыл</p>
             </div>
             <Row className="second_block_programs" gutter={16}>
-                <Col span={8}>
+                <Col className="second_col_programs" span={8}>
                     <Card className="Card_programs_block" bordered={true}>
                         <h5 style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
                             <img src="/img/federal-icon.svg" alt="" />
@@ -40,9 +40,9 @@ const ProgramBlock = () => {
                 </Col>
             </Row>
 
-            <Row gutter={16} style={{ marginTop: "20px" }}>
-                <Col span={8}>
-                    <Card style={{ background: "#F1F2F4" }} bordered={false}>
+            <Row className="programs__term" gutter={16} style={{ marginTop: "20px" }}>
+                <Col className="programs__term__col" span={8}>
+                    <Card className="programs__term__card" style={{ background: "#F1F2F4" }} bordered={false}>
                         <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
 
                             <div>
@@ -63,7 +63,7 @@ const ProgramBlock = () => {
                     </Card>
                 </Col>
                 <Col span={8}>
-                    <Card style={{ background: "#F1F2F4" }} bordered={false}>
+                    <Card  className="programs__term__card"  style={{ background: "#F1F2F4" }} bordered={false}>
                         <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
 
                             <div>
@@ -84,7 +84,7 @@ const ProgramBlock = () => {
                     </Card>
                 </Col>
                 <Col span={8}>
-                    <Card style={{ background: "#F1F2F4" }} bordered={false}>
+                    <Card  className="programs__term__card" style={{ background: "#F1F2F4" }} bordered={false}>
                         <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
 
                             <div>

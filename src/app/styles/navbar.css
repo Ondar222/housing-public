@@ -24,6 +24,12 @@
     list-style: none;
 }
 
+.menu__container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 .menu_list {
     list-style: none;
 }
@@ -49,4 +55,40 @@
     width: 100%;
     height: 100%;
     font-weight: bold;
+}
+
+
+
+@media (max-width: 430px) {
+  .container_navbar {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 25%;
+    
+  }
+  .block_container_navbar {
+   display: flex;
+   
+  }
+  .title_navbar {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menuList {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+    
 }

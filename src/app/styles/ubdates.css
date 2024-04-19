@@ -1,0 +1,78 @@
+.ubdates {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ubdates__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ubdates__btn__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ubdates__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 273px;
+    height: 54px;
+    border-radius: 10px;
+}
+
+.ubdates__btn {
+    width: 183px;
+    height: 52px;
+    border-radius: 50px;
+}
+
+@media (max-width: 430px) {
+    .ubdates {
+    }
+
+    .ubdates__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ubdates__img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .ubdates__col {
+    }
+
+    .ubdates__card {
+        width: 280px;
+    }
+
+    .ubdates__card__div h5 {
+    }
+    .ubdates__card__div__h3 {
+        font-size: 15px !important;
+    }
+
+    .ubdates__btn__container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        max-width: 280px;
+    }
+
+    .ubdates__input {
+        border-radius: 1rem;
+    }
+
+    .ubdates__btn {
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
+    }
+}

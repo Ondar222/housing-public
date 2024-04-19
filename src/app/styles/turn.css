@@ -1,0 +1,15 @@
+.turn_page_class {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+
+@media (max-width: 430px) {
+    .turn_page_class {
+      display: flex;
+      flex-direction: column;
+      width: 280px;
+    }
+}

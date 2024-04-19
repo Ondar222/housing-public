@@ -1,5 +1,5 @@
-.Container_contactsPage {
-    margin: 0 auto;
+.Container_contactsBlock{
+  margin-top: 60px;
 }
 
 
@@ -43,12 +43,12 @@
 .Form_contactsBlock {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
 }
 .Form_contactsBlock_Button {
-    width: 145px;
-    height: 56px;
-    border-radius: 36px;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
 }
 
 .ContactsBlock_second_block {
@@ -106,4 +106,27 @@
 .Email_class_logo {
     justify-content: center;
     color: #2091F9;
+}
+
+@media (max-width: 430px) {
+    .Container_contactsBlock {
+     display: flex;
+     flex-direction: column;
+
+    }
+
+    .card__contact {
+        width: 280px !important;
+    }
+
+    .Card_contactsBlock {
+      
+    }
+
+    .Container_contactsBlock_second {
+       width: 280px;
+    }
+    .add {
+        display: none;
+    }
 }

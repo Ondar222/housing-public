@@ -1,0 +1,36 @@
+@media (max-width: 430px) {
+    .housiung_programs_container {
+        display: flex;
+   
+       
+    }
+
+    .programs_info_block_title_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programs_buttons_container  {
+       width: 90%;
+    }
+
+    .programs_buttons_container h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .programs_flex_application {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programs_button_application {
+        padding-bottom: 1rem;
+    }
+    
+    .programs_button_queue_application {
+        padding-bottom: 1rem;
+    }
+
+   
+}
