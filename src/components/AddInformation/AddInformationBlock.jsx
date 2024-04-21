@@ -11,16 +11,14 @@ const AddInformationBlock = () => (
   <div>
     <div className="container_addInfo">
       <div className="titleBlock_addInfo">
-        <h1>
-          Дополнительная информация
-        </h1>
+        <h1>Дополнительная информация</h1>
         <p>
           Ссылки на сайты и электронные системы связанные с жилищными
           программами
         </p>
       </div>
 
-      <div className="addBlocks" >
+      <div className="addBlocks">
         <Card>
           <Card.Grid style={gridStyle}>Client Name</Card.Grid>
           <Card.Grid style={gridStyle}>Client Name</Card.Grid>
@@ -32,9 +30,7 @@ const AddInformationBlock = () => (
           <Card.Grid style={gridStyle}>Client Name</Card.Grid>
         </Card>
       </div>
-      <Button className="button_Vk"
-        type="primary"
-      >
+      <Button className="button_Vk" type="primary">
         Сообщество Вк
       </Button>
     </div>

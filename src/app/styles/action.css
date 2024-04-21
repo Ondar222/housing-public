@@ -11,3 +11,14 @@
     flex-direction: row;
     gap: 20px;
 }
+
+@media (max-width: 430px) {
+    .container_action {
+        width: 90%;
+    }
+
+    .step_class {
+        font-size: 10px;
+   
+    }
+}

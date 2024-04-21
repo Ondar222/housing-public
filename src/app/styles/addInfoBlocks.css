@@ -46,7 +46,7 @@
     .container_addInfo {
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 20px;
     }
 
     .titleBlock_addInfo {
@@ -59,24 +59,26 @@
     .titleBlock_addInfo h1 {
         font-size: 12px !important;
         font-weight: 500 !important;
-        margin-right: 60px;
+        /* margin-right: 60px; */
+        margin: 0 auto;
     }
 
     .titleBlock_addInfo p {
         font-size: 12px !important;
         font-weight: 500 !important;
-        margin-right: 60px;
+        margin: 0 auto;
     }
 
     .addBlocks {
+        max-width: 280px;
         height: 250px;
-        margin-right: 70px;
+       margin: 0 auto;
+       margin-bottom: 20px;
     }
 
     .button_Vk {
         width: 150px;
-        height: 50px;
-        margin-top: 80px;
-        margin-left: 80px;
+        height: 40px;
+       
     }
 }

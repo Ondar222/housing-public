@@ -20,9 +20,7 @@ const ActionBlock = () => (
         <h1> Выполнить действие</h1>
       </div>
     </Card>
-    <Card
-      type="inner"
-    >
+    <Card type="inner">
       <div className="step_class">
         <h1>Шаг 3.</h1>
         <h1> Выполнить действие</h1>

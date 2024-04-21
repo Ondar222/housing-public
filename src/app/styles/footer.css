@@ -90,6 +90,7 @@
 
 @media (max-width: 430px) {
     .footer {
+        max-width: 430px;
     }
 
     .container_footer {
@@ -98,7 +99,7 @@
     }
 
     .footer_first_block {
-        width: 30% !important;
+        width: 35% !important;
     }
 
     .footer_logo_class {

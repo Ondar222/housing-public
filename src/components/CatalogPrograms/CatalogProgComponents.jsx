@@ -5,7 +5,7 @@ import { Button, Card, Col, Row } from 'antd';
 
 const CatalogProgComponents = () => (
     <Row className='block_catalogs_programs' gutter={[40, 40]}>
-        <Col style={{display: "flex", flexDirection :"row"}} span={6}>
+        <Col className='block_catalogs_programs' style={{display: "flex", flexDirection :"row"}} span={6}>
             <Card className='second_card_cardprog' bordered={true}>
                 <div>
                     <h3 className='second_card_cardprog_heading_prog'>1 программа</h3>
