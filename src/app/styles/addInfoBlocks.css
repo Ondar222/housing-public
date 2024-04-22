@@ -59,26 +59,28 @@
     .titleBlock_addInfo h1 {
         font-size: 12px !important;
         font-weight: 500 !important;
-        /* margin-right: 60px; */
-        margin: 0 auto;
+        margin-right: 5rem;
+     
     }
 
     .titleBlock_addInfo p {
         font-size: 12px !important;
         font-weight: 500 !important;
-        margin: 0 auto;
+        margin-right: 4rem;
     }
 
     .addBlocks {
         max-width: 280px;
         height: 250px;
-       margin: 0 auto;
+       /* margin: 0 auto; */
        margin-bottom: 20px;
+       margin-right: 5rem;
     }
 
     .button_Vk {
         width: 150px;
         height: 40px;
+        margin-right: 8rem;
        
     }
 }
