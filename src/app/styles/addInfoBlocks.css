@@ -47,10 +47,11 @@
         display: flex;
         flex-direction: column;
         margin-top: 50px;
+     
     }
 
     .titleBlock_addInfo {
-
+    max-width: 100%;
     }
 
     .titleBlock_addInfo h1 {
