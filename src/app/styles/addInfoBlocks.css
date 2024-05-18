@@ -57,12 +57,12 @@
     .titleBlock_addInfo h1 {
 
         font-size: 20px !important;
-        width: 300px;
+        width: 100%;
     }
 
     .titleBlock_addInfo p {
         font-size: 15px !important;
-        width: 300px;
+        width: 100%;
     }
 
     .addBlocks {
@@ -73,4 +73,5 @@
     height: 50px;
 
     }
+ 
 }
