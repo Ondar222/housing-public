@@ -10,7 +10,7 @@ const ProgramBlock = () => {
             <Row className="second_block_programs" gutter={16}>
                 <Col className="second_col_programs" span={8}>
                     <Card className="Card_programs_block" bordered={true}>
-                        <h5 style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
+                        <h5>
                             <img src="/img/federal-icon.svg" alt="" />
                             Федеральная
                         </h5>
@@ -20,7 +20,7 @@ const ProgramBlock = () => {
                 </Col>
                 <Col span={8}>
                     <Card className="Card_programs_block" bordered={true}>
-                        <h5 style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
+                        <h5>
                             <img src="/img/federal-icon.svg" alt="" />
                             Федеральная
                         </h5>
@@ -30,7 +30,7 @@ const ProgramBlock = () => {
                 </Col>
                 <Col span={8}>
                     <Card className="Card_programs_block" bordered={true}>
-                        <h5 style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
+                        <h5>
                             <img src="/img/federal-icon.svg" alt="" />
                             Федеральная
                         </h5>
@@ -43,9 +43,8 @@ const ProgramBlock = () => {
             <Row className="programs__term" gutter={16} style={{ marginTop: "20px" }}>
                 <Col className="programs__term__col" span={8}>
                     <Card className="programs__term__card" style={{ background: "#F1F2F4" }} bordered={false}>
-                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-
-                            <div>
+                        <div className="div__term">
+                            <div className="term__consultation__class">
                                 <h3>Подача до</h3>
                                 <p>31.01.2025</p>
                                 <Button type="primary" style={{ background: "#4FB1FF" }}>

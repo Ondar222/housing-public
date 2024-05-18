@@ -21,27 +21,48 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 624px;
+    height: 350px;
+}
+
+.queue__class__text{
+    font-size: 28px;
 }
 
 @media (max-width: 430px) {
     .queue_class {
-    }
-
-    .container_queue_class {
         display: flex;
         flex-direction: column;
     }
 
+    .container_queue_class {
+       display: flex;
+       flex-direction: column;
+    }
+
     .queue_class__card {
-        width: 280px;
-        margin-right: 40px;
+    width: 300px;
     }
 
     .queue_class__title {
-     
+     font-size: 20px;
+    }
+
+    .queue__class__text {
+        font-size: 15px;
+    }
+
+    .button_queue_class{
+      width: 50%;
+      height: 50%;
+
     }
 
     .img_queue_class {
        display: none;
+    }
+
+    .img__queue__img {
+       
     }
 }

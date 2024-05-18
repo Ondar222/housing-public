@@ -135,8 +135,8 @@ const Snils = () => {
 
   const [open, setOpen] = React.useState(false)
   return (
-    <div className='container_snils' style={{ display: "flex", width: "100%" }}>
-      <Form name="form_snils_path" style={{ display: "flex", flexDirection: "column", width: "35%", margin: "0 auto" }} layout="vertical" onFinish={onFinish}>
+    <div className='container_snils'>
+      <Form className="form_snils_path" layout="vertical" onFinish={onFinish}>
         <MyFormItemGroup prefix={['user']}>
           <MyFormItemGroup prefix={['name']}>
             <MyFormItem name="Введите СНИЛС" label="Введите СНИЛС">
@@ -148,7 +148,8 @@ const Snils = () => {
         <Button onClick={() => {
           getQueue(snils)
           setOpen(true)
-        }} type="primary" htmlType="submit" style={{ width: "44%", margin: "0 auto", background: "#F1F5F9", color: "black", fontWeight: "bolder" }}>
+        }} type="primary" htmlType="submit"
+          className='btn__snils__check'>
           Проверить <RightOutlined />
         </Button>
 

@@ -1,0 +1,40 @@
+.container_snils {
+    display: flex;
+    width: 100%;
+}
+
+.form_snils_path {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 0 auto;
+}
+
+
+.btn__snils__check {
+    width: 44%;
+    margin: 0 auto;
+    background: #F1F5F9;
+    color: black;
+    font-weight: bolder;
+}
+
+@media(max-width: 430px) {
+    .container_snils {
+        display: flex;
+        width: 100%;
+    }
+
+    .form_snils_path {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      
+    }
+
+    .btn__snils__check {
+        width: 100%;
+        font-size: 12px;
+
+    }
+}

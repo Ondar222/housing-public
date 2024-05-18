@@ -42,45 +42,34 @@
 }
 
 @media (max-width: 430px) {
-   
+
     .container_addInfo {
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .titleBlock_addInfo {
-        width: 280px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
     }
 
     .titleBlock_addInfo h1 {
-        font-size: 12px !important;
-        font-weight: 500 !important;
-        margin-right: 5rem;
-     
+
+        font-size: 20px !important;
+        width: 300px;
     }
 
     .titleBlock_addInfo p {
-        font-size: 12px !important;
-        font-weight: 500 !important;
-        margin-right: 4rem;
+        font-size: 15px !important;
+        width: 300px;
     }
 
     .addBlocks {
-        max-width: 280px;
-        height: 250px;
-       /* margin: 0 auto; */
-       margin-bottom: 20px;
-       margin-right: 5rem;
+    
     }
 
     .button_Vk {
-        width: 150px;
-        height: 40px;
-        margin-right: 8rem;
-       
+    height: 50px;
+
     }
 }

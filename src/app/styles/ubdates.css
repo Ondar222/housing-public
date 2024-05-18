@@ -34,11 +34,13 @@
 
 @media (max-width: 430px) {
     .ubdates {
+        width: 100%;
     }
 
     .ubdates__container {
         display: flex;
         flex-direction: column;
+       
     }
 
     .ubdates__img {
@@ -47,13 +49,15 @@
     }
 
     .ubdates__col {
+    
     }
 
     .ubdates__card {
-        width: 280px;
+        width: 300px;
     }
 
     .ubdates__card__div h5 {
+        font-size: 20px;
     }
     .ubdates__card__div__h3 {
         font-size: 15px !important;
@@ -63,16 +67,17 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
-        max-width: 280px;
     }
 
     .ubdates__input {
-        border-radius: 1rem;
+        border-radius: 10px;
+        width: 200px;
+        height: 40px;
     }
 
     .ubdates__btn {
-        width: 100px;
-        height: 50px;
-        border-radius: 20px;
+        width: 80px;
+        height: 40px;
+        border-radius: 10px;
     }
 }

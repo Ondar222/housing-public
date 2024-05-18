@@ -28,7 +28,7 @@ const UpdatesBlock = () => {
               <Input className="ubdates__input"
                 placeholder="Ваш e-mail"
                 variant="filled"
-          
+
               />
               <Button className="ubdates__btn"
                 type="primary"

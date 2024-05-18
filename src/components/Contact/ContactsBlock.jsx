@@ -10,7 +10,7 @@ const ContactsBlock = () => {
 
   return (
     <div className="Container_contactsBlock">
-      <Card className="card__contact" style={{ width: 500, height: 500 }}>
+      <Card className="card__contact">
         <h1>Напишите нам</h1>
         <Form className="Form_contactsBlock" onFinish={onFinish}>
           <Input placeholder="Фамилия Имя Отчество" />
