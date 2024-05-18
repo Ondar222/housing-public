@@ -121,8 +121,9 @@
 .block_catalogs_programs {
     display: flex;
     flex-direction: row;
-
+justify-content: space-around;
     text-align: center;
+  
 }
 
 .second_card_cardprog {
@@ -130,8 +131,9 @@
 
     transition: 1s;
     cursor: pointer;
-    min-width: 280px;
-    height: 470px;
+    min-width: 200px;
+
+    height: 500px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -225,13 +227,17 @@
 }
 
 @media (max-width: 430px) {
-    .Container_CatalogProgramsPage {}
+    .Container_CatalogProgramsPage {
+        width: 100%;
+        
+    }
 
     .Block_CP_Page {
-        max-width: 430px;
+        width: 100%;
     }
 
     .Title_CP_Page {
+        width: 100%;
         font-size: 20px;
         font-weight: 500;
     }
@@ -246,17 +252,25 @@
         display: flex !important;
         flex-direction: column !important;
         gap: 10px !important;
-        padding-left: 25px;
+        width: 100%;
+        margin: 0 auto !important;
+       
     }
 
     .block_catalogs_programs__col {
-        display: flex;
-        margin: 0 auto;
+     
     }
 
     .second_card_cardprog {
-        height: 300px;
+        height: 100%;
+   
+   
 
+    }
+
+    .programs_flex_application{
+     margin: 0;
+    
     }
 
     .second_card_cardprog h3 {

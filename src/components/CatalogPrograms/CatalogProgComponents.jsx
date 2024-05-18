@@ -5,7 +5,7 @@ import { Button, Card, Col, Row } from 'antd';
 
 const CatalogProgComponents = () => (
     <Row className='block_catalogs_programs' gutter={[40, 40]}>
-        <Col className='block_catalogs_programs' style={{display: "flex", flexDirection :"row"}} span={6}>
+        <div className='block_catalogs_programs' style={{display: "flex", flexDirection :"row"}}>
             <Card className='second_card_cardprog' bordered={true}>
                 <div>
                     <h3 className='second_card_cardprog_heading_prog'>1 программа</h3>
@@ -26,8 +26,8 @@ const CatalogProgComponents = () => (
                     Подать заявку
                 </Button>
             </Card>
-        </Col>
-        <Col span={6}>
+        </div>
+        <div>
             <Card className='second_card_cardprog' bordered={true}>
                 <div>
                     <h3 className='second_card_cardprog_heading_prog'>2 программа</h3>
@@ -48,8 +48,8 @@ const CatalogProgComponents = () => (
                     Подать заявку
                 </Button>
             </Card>
-        </Col>
-        <Col span={6}>
+        </div>
+        <div>
             <Card className='second_card_cardprog' bordered={true}>
                 <div>
                     <h3 className='second_card_cardprog_heading_prog'>3 программа</h3>
@@ -70,8 +70,8 @@ const CatalogProgComponents = () => (
                     Подать заявку
                 </Button>
             </Card>
-        </Col>
-        <Col span={6}>
+        </div>
+        <div span={6} >
             <Card className='second_card_cardprog' bordered={true}>
                 <div>
                     <h3 className='second_card_cardprog_heading_prog'>4 программа</h3>
@@ -92,7 +92,7 @@ const CatalogProgComponents = () => (
                     Подать заявку
                 </Button>
             </Card>
-        </Col>
+        </div>
     </Row>
 );
 export default CatalogProgComponents;

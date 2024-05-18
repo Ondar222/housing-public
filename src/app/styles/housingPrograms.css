@@ -23,14 +23,17 @@
     .programs_flex_application {
         display: flex;
         flex-direction: column;
+      
     }
 
     .programs_button_application {
         padding-bottom: 1rem;
+        width: 43%;
     }
     
     .programs_button_queue_application {
         padding-bottom: 1rem;
+        width: 43%;
     }
 
     .programs_img_class{
