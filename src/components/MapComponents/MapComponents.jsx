@@ -3,7 +3,8 @@ import { EnvironmentOutlined, MobileOutlined, MailOutlined } from "@ant-design/i
 
 
 const MapComponents = () => {
-    return (  <div className="Container_contactsBlock_second">
+    return ( 
+         <div className="Container_contactsBlock_second">
     <div className="ContactsBlock_second_block">
         <div className="Location_class">
             <EnvironmentOutlined classID="Location_logo" style={{ justifyContent: "center", color: "#2091F9" }} />
@@ -19,7 +20,7 @@ const MapComponents = () => {
             <p className="Email_class_paragraph">default@mail.ru</p>
         </div>
     </div>
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad153a0ca85b2bf7d06720a69f8a45f52f5619b51eb74a3720804d8a2c50ff3b6&amp;source=constructor" width="100%" height="400"></iframe>
+    <iframe className="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad153a0ca85b2bf7d06720a69f8a45f52f5619b51eb74a3720804d8a2c50ff3b6&amp;source=constructor" width="100%" height="400"></iframe>
 </div> );
 }
  

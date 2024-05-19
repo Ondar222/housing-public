@@ -64,21 +64,29 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    text-align: center;
+    gap: 20px;
     
     
   }
   .block_container_navbar {
    display: flex;
+   flex-direction: row;
+   width: 100%;
+   
    
   }
   .title_navbar {
    display: flex;
    flex-direction: column;
+   justify-content: center;
+
   
   }
   .menu {
     display: flex;
     flex-direction: column;
+    width: 100%;
     
   }
 
@@ -89,6 +97,11 @@
 
   .menuList {
    
+  }
+
+  .container_button_navbar{
+    width: 100%;
+    
   }
     
 }

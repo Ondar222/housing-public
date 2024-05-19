@@ -47,11 +47,11 @@
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-     
+
     }
 
     .titleBlock_addInfo {
-    max-width: 100%;
+        width: 100%;
     }
 
     .titleBlock_addInfo h1 {
@@ -65,13 +65,12 @@
         width: 100%;
     }
 
-    .addBlocks {
-    
-    }
+    .addBlocks {}
 
     .button_Vk {
-    height: 50px;
+        width: 50%;
+        height: 70% !important;
 
     }
- 
+
 }

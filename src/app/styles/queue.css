@@ -33,7 +33,7 @@
     .queue_class {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 100%;
         margin: 0 auto;
       
     }
@@ -45,7 +45,7 @@
     }
 
     .queue_class__card {
-    width: 300px;
+    width: 100%;
     }
 
     .queue_class__title {

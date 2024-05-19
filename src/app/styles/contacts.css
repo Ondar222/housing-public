@@ -1,5 +1,5 @@
-.Container_contactsBlock{
-  margin-top: 60px;
+.Container_contactsBlock {
+    margin-top: 60px;
 }
 
 .card__contact {
@@ -9,35 +9,35 @@
 
 
 .Block_contactsPage {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
 }
 
 .Title_CP {
- color: #404040;
- font-size: 48px;
- font-weight: normal;
+    color: #404040;
+    font-size: 48px;
+    font-weight: normal;
 }
 
 .Second_Title_CP {
- color: #979797;
- font-size: 28px;
- width: 50%;
- margin: 0 auto;
+    color: #979797;
+    font-size: 28px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 
 
 
 .Container_contactsBlock {
- margin: o auto;
- display: flex;
- flex-direction: row;
- justify-content: center;
- gap: 20px;
- margin-bottom: 100px;
+    margin: o auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
 }
 
 .Card_contactsBlock {
@@ -50,6 +50,7 @@
     flex-direction: column;
     gap: 40px;
 }
+
 .Form_contactsBlock_Button {
     width: 120px;
     height: 40px;
@@ -57,18 +58,18 @@
 }
 
 .ContactsBlock_second_block {
- display: flex;
- flex-direction: row;
- gap: 20px;
- font-size: 1.25rem;
- font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .Location_class {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .Location_logo {
@@ -79,7 +80,7 @@
 .Location_class_paragraph {
     font-size: 16px;
     font-weight: normal;
-    
+
 }
 
 .Phone_class {
@@ -97,6 +98,7 @@
     font-size: 16px;
     font-weight: normal;
 }
+
 .Email_class {
     display: flex;
     flex-direction: column;
@@ -115,28 +117,61 @@
 
 @media (max-width: 430px) {
     .Container_contactsBlock {
-     display: flex;
-     flex-direction: column;
-     width: 100%;
-  
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
     }
 
     .card__contact {
         width: 100%;
+       
     }
 
-    .Form_contactsBlock {
-        
-    }
+    .Form_contactsBlock {}
 
-    .Card_contactsBlock {
-     
-    }
+    .Card_contactsBlock {}
 
     .Container_contactsBlock_second {
-      
+        width: 100%;
     }
+
+    .ContactsBlock_second_block {}
+
+    .Location_class {
+        width: 50%;
+    }
+
+    .Location_class_paragraph {
+        font-size: 10px;
+    }
+
+    .Phone_class {
+        width: 50%;
+    }
+
+    .Phone_class_paragraph {
+        font-size: 10px;
+    }
+
+    .Email_class {
+        width: 50%;
+    }
+
+    .Email_class_paragraph {
+        font-size: 10px
+    }
+
+    .Form_contactsBlock_Button {
+        width: 40%;
+        height: 60%;
+    }
+
     .add {
         display: none;
+    }
+
+    .map{
+       
     }
 }

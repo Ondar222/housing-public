@@ -29,7 +29,8 @@
         flex-direction: column;
         justify-content: center;
         max-width: 100%;
-        height: 100%;
+        height: 50%;
+        gap: 10px;
 
     }
 
@@ -41,26 +42,37 @@
         justify-content: center;
         font-size: 15px;
        
+   
+       
        
     }
 
     .programs_button_queue_application {
         width: 100%;
-        height: 30%;
+       height: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-size: 15px;
+       
     }
 
-    /* .btn__application__text{
+     .btn__application__text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 10px;
         font-size: 12px;
        
     }
     
     .btn__queue__text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 10px;
         font-size: 12px;
-    } */
+       
+    } 
 
     .programs_img_class {
         display: flex;

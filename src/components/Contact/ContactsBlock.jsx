@@ -28,7 +28,6 @@ const ContactsBlock = () => {
           </Button>
         </Form>
       </Card>
-
       <MapComponents />
     </div>
   );
