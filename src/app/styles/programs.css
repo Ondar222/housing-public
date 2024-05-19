@@ -396,10 +396,15 @@ justify-content: space-around;
         justify-content: space-around;
         width: 100%;
         
+        
     }
 
     .div__term{
-    
+     max-width: 100%;
+    }
+
+    .term__consultation__class{
+        max-width: 100%;
     }
 
     .mortgage_class {
@@ -440,3 +445,4 @@ justify-content: space-around;
     }
 
 }
+
