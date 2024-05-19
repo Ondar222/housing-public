@@ -5,8 +5,8 @@ import { Card, Col, Row } from 'antd';
 const TurnBlock = () => {
     return (
         <div className="queue_class">
-            <Row className="container_queue_class" gutter={16}>
-                <Col span={14}>
+            <Row className="container_queue_class">
+                <div span={14}>
                     <Card className="queue_class__card" bordered={false}>
                         <Typography.Title className="queue_class__title" level={1} >Узнать свою очередь</Typography.Title>
                         <Typography.Paragraph className="queue__class__text">Выполните несколько простых шагов:</Typography.Paragraph>
@@ -18,7 +18,7 @@ const TurnBlock = () => {
                             Узнать
                         </Button>
                     </Card>
-                </Col>
+                </div>
                 <Col className="img_queue_class" span={10}>
                     <Image
                     className="img__queue__img"

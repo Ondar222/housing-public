@@ -7,8 +7,8 @@ const ProgramBlock = () => {
                 <h1 className="title_programs">Жилищные программы</h1>
                 <p className="paragraph_programs">Краткое описание всех жилищных программ мэрии города Кызыл</p>
             </div>
-            <Row className="second_block_programs" gutter={16}>
-                <Col className="second_col_programs" span={8}>
+            <div className="second_block_programs">
+                <div className="card__federal">
                     <Card className="Card_programs_block" bordered={true}>
                         <h5>
                             <img src="/img/federal-icon.svg" alt="" />
@@ -17,8 +17,8 @@ const ProgramBlock = () => {
                         <h3>Льготная ипотека для IT-специалистов</h3>
                         <p>Льготная ипотека для специалистов IT-компаний по ставке до 5% годовых</p>
                     </Card>
-                </Col>
-                <Col span={8}>
+                </div>
+                <div className="card__federal">
                     <Card className="Card_programs_block" bordered={true}>
                         <h5>
                             <img src="/img/federal-icon.svg" alt="" />
@@ -27,8 +27,8 @@ const ProgramBlock = () => {
                         <h3>Льготная ипотека для IT-специалистов</h3>
                         <p>Льготная ипотека для специалистов IT-компаний по ставке до 5% годовых</p>
                     </Card>
-                </Col>
-                <Col span={8}>
+                </div>
+                <div className="card__federal">
                     <Card className="Card_programs_block" bordered={true}>
                         <h5>
                             <img src="/img/federal-icon.svg" alt="" />
@@ -37,13 +37,34 @@ const ProgramBlock = () => {
                         <h3>Льготная ипотека для IT-специалистов</h3>
                         <p>Льготная ипотека для специалистов IT-компаний по ставке до 5% годовых</p>
                     </Card>
-                </Col>
-            </Row>
+                </div>
+            </div>
 
-            <Row className="programs__term" gutter={16} style={{ marginTop: "20px" }}>
-                <Col className="programs__term__col" span={8}>
+            <Row className="programs__term" style={{ marginTop: "20px" }}>
+
+                <Card className="programs__term__card" style={{ background: "#F1F2F4" }} bordered={false}>
+                    <div className="div__term">
+                        <div className="term__consultation__class">
+                            <h3>Подача до</h3>
+                            <p>31.01.2025</p>
+                            <Button type="primary" style={{ background: "#4FB1FF" }}>
+                                Консультация
+                            </Button>
+                        </div>
+                        <div>
+                            <h3>Действует до</h3>
+                            <p>31.01.2025</p>
+                            <Button type="default">
+                                О программе
+                            </Button>
+                        </div>
+                    </div>
+                </Card>
+
+                <div>
                     <Card className="programs__term__card" style={{ background: "#F1F2F4" }} bordered={false}>
                         <div className="div__term">
+
                             <div className="term__consultation__class">
                                 <h3>Подача до</h3>
                                 <p>31.01.2025</p>
@@ -60,12 +81,12 @@ const ProgramBlock = () => {
                             </div>
                         </div>
                     </Card>
-                </Col>
-                <Col span={8}>
-                    <Card  className="programs__term__card"  style={{ background: "#F1F2F4" }} bordered={false}>
-                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+                </div>
+                <div>
+                    <Card className="programs__term__card" style={{ background: "#F1F2F4" }} bordered={false}>
+                        <div className="div__term">
 
-                            <div>
+                            <div className="term__consultation__class">
                                 <h3>Подача до</h3>
                                 <p>31.01.2025</p>
                                 <Button type="primary" style={{ background: "#4FB1FF" }}>
@@ -81,28 +102,7 @@ const ProgramBlock = () => {
                             </div>
                         </div>
                     </Card>
-                </Col>
-                <Col span={8}>
-                    <Card  className="programs__term__card" style={{ background: "#F1F2F4" }} bordered={false}>
-                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-
-                            <div>
-                                <h3>Подача до</h3>
-                                <p>31.01.2025</p>
-                                <Button type="primary" style={{ background: "#4FB1FF" }}>
-                                    Консультация
-                                </Button>
-                            </div>
-                            <div>
-                                <h3>Действует до</h3>
-                                <p>31.01.2025</p>
-                                <Button type="default">
-                                    О программе
-                                </Button>
-                            </div>
-                        </div>
-                    </Card>
-                </Col>
+                </div>
             </Row>
 
         </div>

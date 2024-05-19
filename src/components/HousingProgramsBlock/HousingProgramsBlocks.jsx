@@ -21,16 +21,18 @@ const HousingProgramsBlocks = () => {
             призыв подать заявку)
           </h4>
 
-          <Flex className="programs_flex_application" gap="small" wrap="gap">
+          <Flex className="programs_flex_application"S>
             <Button
               className="programs_button_application"
               href="/programs"
               type="primary"
               icon={<CheckOutlined />}
             >
+
               Подать заявку
             </Button>
             <Button className="programs_button_queue_application" href="/queue">
+
               Моя очередь
             </Button>
           </Flex>

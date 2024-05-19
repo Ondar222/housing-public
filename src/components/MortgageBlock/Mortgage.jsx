@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Mortgage = () => {
   return (
     <Row className="mortgage_class">
-      <Col className="mortgage_col" span={8}>
+      <div className="mortgage_col">
         <Card className="mortgage_class_left_block" bordered={false}>
           <div className="mg_title_left_block">
             <CheckOutlined /> <p>Действующая программа</p>
@@ -18,8 +18,8 @@ const Mortgage = () => {
             </div>
           </div>
         </Card>
-      </Col>
-      <Col span={8}>
+      </div>
+      <div className="morgage__ipoteka__class">
         <Card className="mortgage__ipoteka" style={{ height: "100%" }} bordered={false}>
           <div>
             <h3>Льготная ипотека</h3>
@@ -29,8 +29,8 @@ const Mortgage = () => {
             </p>
           </div>
         </Card>
-      </Col>
-      <Col span={8}>
+      </div>
+      <div>
         <Card className="mortgage__region" bordered={false}>
           <h4>Регионы: все</h4>
           <div>
@@ -47,7 +47,7 @@ const Mortgage = () => {
             </Button>
           </Link>
         </Card>
-      </Col>
+      </div>
     </Row>
   );
 };
