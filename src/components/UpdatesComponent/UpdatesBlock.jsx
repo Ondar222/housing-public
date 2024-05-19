@@ -4,14 +4,13 @@ import { Row, Card, Col, Button, Input } from "antd";
 const UpdatesBlock = () => {
   return (
     <div className="ubdates">
-      <Row className="ubdates__container"
-        gutter={16}
-      >
-        <Col span={10}>
+      <Row className="ubdates__container">
+        
+       <div className="updates__img__container">
           <img className="ubdates__img" width={610} height={520} src="/img/updates-bg.png"></img>
-        </Col>
+        </div>
 
-        <Col className="ubdates__col" span={10}>
+        <div className="ubdates__col">
           <Card className="ubdates__card" bordered={false}>
             <div className="ubdates__card__div">
               <h5 style={{ fontSize: "20px" }}>Как быть в курсе?</h5>
@@ -37,7 +36,7 @@ const UpdatesBlock = () => {
               </Button>
             </div>
           </Card>
-        </Col>
+        </div>
       </Row>
     </div>
   );
