@@ -81,3 +81,84 @@
 
 
 }
+
+
+@media (max-width: 1199px) {
+    .housiung_programs_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+
+    }
+
+    .programs_info_block_title_block {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .programs_buttons_container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .programs_buttons_container h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .programs_flex_application {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+        height: 50%;
+        gap: 10px;
+
+    }
+
+    .programs_button_application {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 15px;  
+    }
+
+    .programs_button_queue_application {
+        width: 100%;
+       height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+     .btn__application__text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 10px;
+        font-size: 12px;
+       
+    }
+    
+    .btn__queue__text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 10px;
+        font-size: 12px;
+       
+    } 
+
+    .programs_img_class {
+        display: flex;
+        margin-top: 30px;
+    }
+
+
+}

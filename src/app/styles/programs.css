@@ -446,3 +446,190 @@ justify-content: space-around;
 
 }
 
+
+
+@media (max-width: 1199px) {
+    .Container_CatalogProgramsPage {
+        width: 100%;
+        
+    }
+
+    .Block_CP_Page {
+        width: 100%;
+    }
+
+    .Title_CP_Page {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .Second_Title_CP_Page {
+
+        font-size: 9px;
+        font-weight: normal;
+    }
+
+    .block_catalogs_programs {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        width: 100%;
+        margin: 0 auto !important;
+       
+    }
+
+    .block_catalogs_programs__col {
+     
+    }
+
+    .second_card_cardprog {
+        height: 100%;
+   
+   
+
+    }
+
+    .programs_flex_application{
+     margin: 0;
+    
+    }
+
+    .second_card_cardprog h3 {
+        font-size: 8px;
+    }
+
+    .conditions {
+        font-size: 7px;
+    }
+
+    .button_catalog_programs {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .container_programs {
+        width: 100%;
+
+    }
+
+    .first_block_programs {
+        width: 100%;
+
+
+    }
+
+    .title_programs {
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .paragraph_programs {
+        width: 80%;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    .programs_img_class {
+        /* display: none; */
+    }
+
+    .second_block_programs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px !important;
+        width: 100% !important;
+    }
+
+    .card__federal{
+        width: 100% !important;
+        height: 100%;
+        
+    }
+
+    .second_col_programs {
+
+    }
+
+    .Card_programs_block {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Card_programs_block h5 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .programs__term {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .programs__term__col {
+        width: 100%;
+    }
+
+    .programs__term__card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        
+        
+    }
+
+    .div__term{
+     max-width: 100%;
+    }
+
+    .term__consultation__class{
+        max-width: 100%;
+    }
+
+    .mortgage_class {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .mortgage_col {}
+
+    .mortgage_class_left_block {
+        width: 100%;
+       
+    }
+
+    .morgage__ipoteka__class{
+        width: 100%;
+    }
+
+    .mortgage__ipoteka {
+        width: 100%;
+       
+    }
+
+    .mortgage__region {
+        width: 100%;
+     
+    }
+
+
+    .description__card__info {
+        width: 100%;
+    }
+
+    .btn__description {
+        display: none !important;
+    }
+
+}
+
+
