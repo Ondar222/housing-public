@@ -15,14 +15,16 @@
 .btn__application__text {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
     font-size: 20px;
 }
 
 .btn__queue__text {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    font-size: 20px;
 }
 
 @media (max-width: 430px) {
@@ -121,7 +123,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        font-size: 15px;
+        font-size: 20px;
     }
     .programs_button_queue_application {
         width: 100%;
@@ -129,20 +131,21 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-size: 20px;
     }
     .btn__application__text {
         display: flex;
         flex-direction: row;
         justify-content: center;
         padding-bottom: 10px;
-        font-size: 12px;
+        font-size: 20px;
     }
     .btn__queue__text {
         display: flex;
         flex-direction: row;
         justify-content: center;
         padding-bottom: 10px;
-        font-size: 12px;
+        font-size: 20px;
     }
     .programs_img_class {
         display: flex;

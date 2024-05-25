@@ -25,10 +25,10 @@ const HousingProgramsBlocks = () => {
               className="programs_button_application"
               href="/programs"
               type="primary"
-              icon={<CheckOutlined />}
+            
             >
+              <CheckOutlined/>
               <a className="btn__application__text" href="/programs">
-
                 Подать заявку
               </a>
 
