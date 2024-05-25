@@ -1,3 +1,30 @@
+.programs_button_application {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 10px;
+    border-radius: 6px;
+}
+
+.programs_button_queue_application {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 10px;
+    border-radius: 6px;
+}
+
+.btn__application__text {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 20px;
+}
+
+.btn__queue__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @media (max-width: 430px) {
     .housiung_programs_container {
         display: flex;

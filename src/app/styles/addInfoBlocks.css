@@ -16,20 +16,19 @@
 }
 
 .titleBlock_addInfo h1 {
-    font-size: 48px !important;
-    font-weight: normal !important;
+    font-size: 36px !important;
 }
 
 .titleBlock_addInfo p {
-    font-size: 28px !important;
-    font-weight: normal !important;
+    font-size: 20px !important;
 }
 
 .addBlocks {
     width: 63%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .addBlocks__container {
@@ -44,9 +43,12 @@
     height: 60px;
     text-align: center;
     margin: 0 auto;
-    border-radius: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.button_Vk a {
+    padding: 25px 10px;
 }
 
 @media (max-width: 430px) {
@@ -66,9 +68,12 @@
         font-size: 15px !important;
         width: 100%;
     }
-    .addBlocks {}
-    .button_Vk {
-        width: 50%;
-        height: 70% !important;
+    .addBlocks {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
+    .button_Vk {}
 }

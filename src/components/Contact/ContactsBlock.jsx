@@ -11,7 +11,7 @@ const ContactsBlock = () => {
   return (
     <div className="Container_contactsBlock">
       <Card className="card__contact">
-        <h1>Напишите нам</h1>
+        <h3>Напишите нам</h3>
         <Form className="Form_contactsBlock" onFinish={onFinish}>
           <Input placeholder="Фамилия Имя Отчество" />
 
@@ -24,7 +24,10 @@ const ContactsBlock = () => {
             htmlType="submit"
             className="Form_contactsBlock_Button"
           >
-            Отправить
+            <a className="contact__btn__href" href="/">
+                  Отправить
+            </a>
+        
           </Button>
         </Form>
       </Card>
