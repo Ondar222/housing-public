@@ -74,31 +74,8 @@ const ProgramBlock = () => {
       </div>
 
       <div className="programs__term" style={{ marginTop: "20px" }}>
-        <div
-          className="programs__term__card"
-          style={{ background: "#F1F2F4" }}
-          bordered={false}
-        >
-          <div className="div__term">
-            <div className="term__consultation__class">
-              <h3>Подача до</h3>
-              <p>31.01.2025</p>
-              <Button className="term__button" type="primary">
-                <a href="#">Консультация</a>
-              </Button>
-            </div>
-            <div className="supple">
-              <h3>Действует до</h3>
-              <p>31.01.2025</p>
-              <Button className="supple__button" type="default">
-              <a href="#"> О программе</a>
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div
+        {[1, 2, 3].map((item) => {
+          return <div
             className="programs__term__card"
             style={{ background: "#F1F2F4" }}
             bordered={false}
@@ -120,31 +97,7 @@ const ProgramBlock = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div>
-          <div
-            className="programs__term__card"
-            style={{ background: "#F1F2F4" }}
-            bordered={false}
-          >
-            <div className="div__term">
-              <div className="term__consultation__class">
-                <h3>Подача до</h3>
-                <p>31.01.2025</p>
-                <Button className="term__button" type="primary">
-                  <a href="#">Консультация</a>
-                </Button>
-              </div>
-              <div className="supple">
-                <h3>Действует до</h3>
-                <p>31.01.2025</p>
-                <Button className="supple__button" type="default">
-                <a href="#"> О программе</a>
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
+        })}
       </div>
     </div>
   );
