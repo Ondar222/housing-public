@@ -13,32 +13,31 @@ const HousingProgramsBlocks = () => {
         <div className="programs_info_block_title_block">
           <div className="programs_buttons_container">
             <h1 style={{ fontWeight: "bold" }}>
-              Информационная система по жилищным программам
+              Информационная программа жилищных государственных программ Мэрии г.Кызыл
             </h1>
+          <p>
+            Уважаемый гость! Рады приветствовать вас в нашей информационной системе! Для начала работы с нашей информационной системой пожалуйста выберите нужный пункт меню
+          </p>
           </div>
-          <h4>
-            Описание информационной программы и призыв к действию (например
-            призыв подать заявку)
-          </h4>
 
           <Flex className="programs_flex_application" S>
             <Button
               className="programs_button_application"
               href="/programs"
               type="primary"
-              icon={ <CheckOutlined />}
+              icon={<CheckOutlined />}
             >
               <a className="btn__application__text" href="/programs">
-                  
-              Подать заявку
+
+                Подать заявку
               </a>
-           
+
             </Button>
             <Button className="programs_button_queue_application" href="/queue">
-             <a className="btn__queue__text" href="/queue">
+              <a className="btn__queue__text" href="/queue">
                 Моя очередь
-             </a>
-            
+              </a>
+
             </Button>
           </Flex>
         </div>

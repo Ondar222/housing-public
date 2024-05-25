@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-* {
-  font-family: "Inter";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+h1,
+h2,
+h3 {
+    font-family: "Open Sans", sans-serif;
 }
 
-/* * {
-  border: 1px green solid !important;
-} */
+p {
+    font-family: "Playfair Display", serif;
+}
 
-/* dfdfdfdfd */
+* {
+    border: 1px green solid !important;
+}
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -47,6 +52,7 @@ body {
   line-height: 1.1;
 } */
 
+
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -67,61 +73,38 @@ button:focus-visible {
 } */
 
 @media (prefers-color-scheme: light) {
-  :root {
-    /* width: 430px; */
-    color: #213547;
-    background-color: #ffffff;
- 
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-
- 
-}
- */
-
- li:hover::before {
-  position: absolute;
-  content: '';
-  height: 4px;
-  width: 100%;
-  background: #2a68ff;
-  right: 0;
-  color: #2a68ff;
-  bottom: -10px;
+     :root {
+        /* width: 430px; */
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
 }
 
-html, body {
-  margin: 8;
+*/ li:hover::before {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #2a68ff;
+    right: 0;
+    color: #2a68ff;
+    bottom: -10px;
 }
 
-@media(max-width: 430px){
-  :root{
-    max-width: 430px;
-  }
-  body {
-   
-  }
+html,
+body {
+    margin: 8;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
+@media(max-width: 430px) {
+     :root {
+        max-width: 430px;
+    }
+    body {}
+}
