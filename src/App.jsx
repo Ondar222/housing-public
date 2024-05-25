@@ -10,19 +10,19 @@ import ContactsBlock from "./components/Contact/ContactsBlock";
 const App = () => {
   return (
 
-        <div style={{ width: "100%"}}>
-          <div style={{  margin: "0 auto", background: "white", display: "flex", flexDirection: "column", gap: "50px" }}>     
-            <HousingProgramsBlocks />
-            <ProgramBlock />
-            <TurnBlock />
-           
-               <UpdatesBlock />
-            <AddInformationBlock />
-            <ContactsBlock />
-           
-          </div>
-        </div>
-    
+    <div style={{ width: "100%" }}>
+      <div style={{ margin: "0 auto", background: "white", display: "flex", flexDirection: "column", gap: "50px" }}>
+        <HousingProgramsBlocks />
+        <ProgramBlock />
+        <TurnBlock />
+
+        <UpdatesBlock />
+        <AddInformationBlock />
+        <ContactsBlock />
+
+      </div>
+    </div>
+
   )
 }
 
