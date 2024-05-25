@@ -19,6 +19,7 @@ import '../src/app/styles/turn.css'
 import '../src/app/styles/addInfoBlocks.css'
 import '../src/app/styles/action.css'
 import '../src/app/styles/snils.css'
+// import '../src/components/NavBars/navbars.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
