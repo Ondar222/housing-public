@@ -1,8 +1,17 @@
 .programs_button_application {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 25px 10px;
     border-radius: 6px;
+}
+
+.checkOutlined_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
 }
 
 .programs_button_queue_application {

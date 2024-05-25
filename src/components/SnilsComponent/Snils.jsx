@@ -139,7 +139,7 @@ const Snils = () => {
       <Form className="form_snils_path" layout="vertical" onFinish={onFinish}>
         <MyFormItemGroup prefix={['user']}>
           <MyFormItemGroup prefix={['name']}>
-            <MyFormItem name="Введите свои серию и номер паспорта" label="Введите свои серию и номер паспорта">
+            <MyFormItem name="Введите паспортные данные" label="Введите паспортные данные">
               <Input onChange={(e) => setSnils(e.target.value)} />
             </MyFormItem>
           </MyFormItemGroup>
