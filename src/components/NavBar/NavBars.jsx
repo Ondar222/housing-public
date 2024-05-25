@@ -24,16 +24,16 @@ const Navbar = () => {
               <a href="/">Главная</a>
             </li>
             <li>
-              <a href="/">Моя очередь</a>
+              <a href="/queue">Моя очередь</a>
             </li>
             <li>
-              <a href="/">Программы</a>
+              <a href="/programs">Программы</a>
             </li>
             <li>
-              <a href="/">Переселение</a>
+              <a href="/resettlements">Переселение</a>
             </li>
             <li>
-              <a href="/">Контакты</a>
+              <a href="/contacts">Контакты</a>
             </li>
           </ul>
 

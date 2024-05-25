@@ -15,7 +15,7 @@ const TurnBlock = () => {
             <p className="queue__class__text">
               1. Перейти во вкладку "Моя очередь"
             </p>
-            <p className="queue__class__text">2. Введите свои ФИО (СНИЛС)</p>
+            <p className="queue__class__text">2. Введите свои серию и номер паспорта</p>
             <p className="queue__class__text">
               3. В новом окне будет результат поиска
             </p>

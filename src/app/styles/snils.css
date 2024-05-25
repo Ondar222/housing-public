@@ -10,10 +10,11 @@
     margin: 0 auto;
 }
 
-
 .btn__snils__check {
-    width: 44%;
+    width: 50%;
+    height: 50%;
     margin: 0 auto;
+    font-size: 20px;
     background: #F1F5F9;
     color: black;
     font-weight: bolder;
@@ -24,17 +25,13 @@
         display: flex;
         width: 100%;
     }
-
     .form_snils_path {
         display: flex;
         flex-direction: column;
         width: 100%;
-      
     }
-
     .btn__snils__check {
         width: 100%;
         font-size: 12px;
-
     }
 }
