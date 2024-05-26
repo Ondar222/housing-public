@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="container_footer">
             <div className="footer_first_block">
                 <div className="footer_logo_class" >
-                    <img className="footer_img_class" src="/img/merya-logo.svg" width={100} height={100} />
+                    <img className="footer_img_class" src="/img/merya-logo.svg" width={51} height={51} />
                     <h3>Мэрия города Кызыла</h3>
                 </div>
                 <div className="footer_second_block">
@@ -31,11 +31,9 @@ const Footer = () => {
 
             <div className="footer_third_block">
                 <h3>Жилищные программы</h3>
-                <a href="/">Семейная ипотека</a>
-                <a href="/">Молодая семья</a>
-                <a href="/">Программа №1</a>
-                <a href="/">Программа №2е</a>
-                <a href="/">Программа №3</a>
+                <a href="/programs">Обеспечение жильем молодых семьей</a>
+                <a href="/programs">Переселение из аварийного и ветхого жилья</a>
+                <a href="/programs">Улучшение жилищных условий</a>
             </div>
         </div>
     </div>
