@@ -1,3 +1,7 @@
+/* * {
+    border: 1px green solid !important;
+} */
+
 .housiung_programs_info_block {
     margin: 0 auto;
     background: white;
@@ -56,12 +60,11 @@
 }
 
 .programs__term {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 50px;
 }
 
 .programs__term__col {}
@@ -93,9 +96,11 @@
     justify-content: space-between;
 }
 
+
+/* 
 .term__consultation__class h3 {
     font-size: 36px;
-}
+} */
 
 .term__consultation__class p {
     font-size: 20px;

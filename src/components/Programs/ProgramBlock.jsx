@@ -82,14 +82,14 @@ const ProgramBlock = () => {
           >
             <div className="div__term">
               <div className="term__consultation__class">
-                <h3>Подача до</h3>
+                <p style={{fontWeight:"bold"}}>Подача до</p>
                 <p>31.01.2025</p>
                 <Button className="term__button" type="primary">
                   <a href="#">Консультация</a>
                 </Button>
               </div>
               <div className="supple">
-                <h3>Действует до</h3>
+                <p style={{fontWeight:"bold"}}>Действует до</p>
                 <p>31.01.2025</p>
                 <Button className="supple__button" type="default">
                   <a href="#"> О программе</a>
