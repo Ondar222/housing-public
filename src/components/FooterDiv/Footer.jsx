@@ -10,7 +10,7 @@ const Footer = () => {
                 </div>
                 <div className="footer_second_block">
                     <div className="footer_location_class">
-                    <img className="footer_location_img" src="/img/location-icon.svg" width={45} height={45} />
+                    <img className="footer_location_img" src="/img/location-icon.svg" />
                     <a className="footer_location_text" href="/"> г. Кызыл, ул. Бухтуева 3</a>
                     </div>
                     <div className="footer_mobile_class">

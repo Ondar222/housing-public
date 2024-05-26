@@ -34,7 +34,7 @@
 
 .footer_img_class {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
