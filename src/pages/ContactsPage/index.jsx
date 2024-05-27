@@ -32,12 +32,10 @@ const ContactsPage = () => {
   };
 
   return (
-    <div>
+    <div className="contact__page">
       <ContactsBlock />
-       <div className="add">
 
       <AddInformationBlock />
-       </div>
     </div>
   );
 };

@@ -65,7 +65,7 @@
     .container_addInfo {
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
+        gap: 20px;
     }
     .addBlocks {
         width: 100%;
@@ -74,7 +74,6 @@
         display: grid;
         max-width: 100%;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 20px;
     }
     .addBlocks__container div {
         width: 100%;
@@ -90,6 +89,7 @@
     }
     .titleBlock_addInfo {
         width: 100%;
+        height: 100%;
     }
     .titleBlock_addInfo h1 {
         font-size: 20px !important;
@@ -100,10 +100,11 @@
         width: 100%;
     }
     .addBlocks {
-        width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: start;
+        width: 100%;
+        height: 100%;
     }
     .button_Vk {
         height: 50px;
