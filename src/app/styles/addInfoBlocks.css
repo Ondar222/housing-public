@@ -2,7 +2,6 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 30px;
     justify-content: center;
 }
 
@@ -37,7 +36,6 @@
     width: 100%;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
 }
 
 .addBlocks__container div {
@@ -76,7 +74,7 @@
         display: grid;
         max-width: 100%;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 50px;
+        margin-top: 20px;
     }
     .addBlocks__container div {
         width: 100%;
@@ -106,7 +104,6 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        gap: 20px;
     }
     .button_Vk {
         height: 50px;
