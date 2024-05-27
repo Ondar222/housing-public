@@ -35,15 +35,22 @@ const Snils = () => {
   };
 
   const getQueue = async (snils) => {
-    const queue = await axios.get(`${import.meta.env.VITE_API}/items/base_queue?fields=*.*.*.*&filter[application][applicant][snils][number]=${snils}`, {
+    const queue = await axios.get(`${import.meta.env.VITE_API}/items/application?fields=*.*.*.*&filter[applicant][identification_document][passport]=${snils}`, {
       headers: {
-        Authorization: `Bearer ${VITE_APIKEY}`
+        Authorization: `Bearer ${import.meta.env.VITE_APIKEY}`
       }
     })
       .then((res) => {
-        setUser(res.data.data[0].application.applicant)
-        setQueue(res.data.data[0].queue)
-        return res.data
+        const { applicant, large_queue, base_queue } = res.data.data[0]
+        setUser(res.data.data[0]?.applicant)
+        if (large_queue) {
+          setQueue(large_queue.queue)
+          return large_queue
+        }
+        if (base_queue) {
+          setQueue(base_queue.queue)
+          return base_queue.queue
+        }
       })
     return queue
   }
@@ -145,14 +152,13 @@ const Snils = () => {
           </MyFormItemGroup>
         </MyFormItemGroup>
 
-        <Button onClick={() => {
-          getQueue(snils)
+        <Button onClick={async () => {
+          await getQueue(snils)
           setOpen(true)
         }} type="primary" htmlType="submit"
           className='btn__snils__check'>
           Проверить <RightOutlined />
         </Button>
-
 
         <Modal
           title="Очередь"
@@ -172,7 +178,7 @@ const Snils = () => {
                   })
                   console.groupEnd()
 
-                  await createAndDownloadPDF(queue, `${user.surname} ${user.name} ${user.patronymic}`)
+                  await createAndDownloadPDF(queue, `${user?.surname} ${user?.name} ${user?.patronymic}`)
                     .then((res) => {
                       console.log(res)
                     })
