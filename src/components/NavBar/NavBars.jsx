@@ -31,7 +31,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <ul className="container_button_navbar">
+          <div className="container_button_navbar">
             <Button
               onClick={() => setOpen(false)}
               className="button_navbar"
@@ -74,7 +74,7 @@ const Navbar = () => {
                 </div>
               </div>
             )}
-          </ul>
+          </div>
 
           <div onClick={() => setNav(!nav)} className="mobile_btn">
             {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
