@@ -30,7 +30,7 @@ const HousingProgramsBlocks = () => {
               type="primary"
             >
               <div className="checkOutlined_class">
-                <CheckOutlined />
+                <CheckOutlined style={{width: "20px", height: "20px"}} />
               </div>
               <a className="btn__application__text" href="/programs">
                 Подать заявку
