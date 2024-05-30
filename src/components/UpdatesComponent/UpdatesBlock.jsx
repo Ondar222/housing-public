@@ -17,7 +17,7 @@ const UpdatesBlock = () => {
         <div className="ubdates__col">
           <Card className="ubdates__card" bordered={false}>
             <div className="ubdates__card__div">
-              <p style={{ fontSize: "20px", fontWeight: "bold" }}>
+              <p  style={{ fontSize: "20px", fontWeight: "bold" }}>
                 Как быть в курсе?
               </p>
               <h3

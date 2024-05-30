@@ -20,7 +20,7 @@ const Mortgage = () => {
         </Card>
       </div>
       <div className="morgage__ipoteka__class">
-        <Card className="mortgage__ipoteka" style={{ height: "100%" }} bordered={false}>
+        <div className="mortgage__ipoteka" style={{ height: "100%" }} bordered={false}>
           <div>
             <h3>Льготная ипотека</h3>
             <p>
@@ -28,10 +28,10 @@ const Mortgage = () => {
               кредитования при покупке жилья на первичном рынке недвижимости.
             </p>
           </div>
-        </Card>
+        </div>
       </div>
       <div>
-        <Card className="mortgage__region" bordered={false}>
+        <div className="mortgage__region" bordered={false}>
           <h4>Регионы: все</h4>
           <div>
             <h4>Начало программы:</h4>
@@ -46,7 +46,7 @@ const Mortgage = () => {
               Получить консультацию
             </Button>
           </Link>
-        </Card>
+        </div>
       </div>
     </Row>
   );

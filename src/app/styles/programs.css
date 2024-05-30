@@ -161,13 +161,13 @@
 
 .Title_CP_Page {
     color: #404040;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: normal;
 }
 
 .Second_Title_CP_Page {
     color: #979797;
-    font-size: 31px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -318,11 +318,23 @@
 }
 
 .morgage__ipoteka__class {
-    width: 50%;
+    width: 40%;
 }
 
 .mortgage__ipoteka {
     width: 100%;
+    font-size: 20px;
+}
+
+.mortgage__region {
+    font-size: 20px;
+}
+
+.mortgage__region Button {
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
 }
 
 .mortgage_class_left_block {
@@ -332,6 +344,7 @@
 
 .mg_title_left_block {
     display: flex;
+    font-size: 20px;
     flex-direction: row;
     gap: 10px;
     color: #FFFF;
@@ -348,6 +361,7 @@
     height: 200px;
     margin: 0 auto;
     border: 1px #4fb1ff solid;
+    font-size: 20px;
 }
 
 .mg_img_container {
@@ -446,6 +460,12 @@
         width: 100%;
         height: 100%;
     }
+    .Card_programs_block h3 {
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
     .Card_programs_block h5 {
         display: flex;
         flex-direction: row;
@@ -514,6 +534,11 @@
     .mortgage__region {
         width: 100%;
     }
+    .mortgage__region Button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     .description__card__info {
         width: 100%;
     }
@@ -561,7 +586,7 @@
         font-weight: 500;
     }
     .Second_Title_CP_Page {
-        font-size: 9px;
+        font-size: 20px;
         font-weight: normal;
     }
     .block_catalogs_programs {
@@ -569,26 +594,28 @@
         flex-direction: column !important;
         gap: 10px !important;
         width: 100%;
+        height: 100%;
         margin: 0 auto !important;
     }
     .block_catalogs_programs__col {}
     .second_card_cardprog {
+        width: 100%;
         height: 100%;
     }
     .programs_flex_application {
         margin: 0;
     }
     .second_card_cardprog h3 {
-        font-size: 8px;
+        font-size: 20px;
     }
     .conditions {
-        font-size: 7px;
+        font-size: 20px;
     }
     .button_catalog_programs {
         width: 80%;
-        height: 50px;
         font-size: 20px;
         padding: 25px 10px;
+        margin-top: 20px;
     }
     .container_programs {
         width: 100%;
@@ -598,12 +625,12 @@
     }
     .title_programs {
         width: 80%;
-        font-size: 20px;
+        font-size: 36px;
         margin: 0 auto;
     }
     .paragraph_programs {
         width: 80%;
-        font-size: 15px;
+        font-size: 20px;
         margin: 0 auto;
     }
     .programs_img_class {
@@ -655,8 +682,11 @@
         gap: 20px;
         width: 100%;
     }
-    .mortgage_col {}
+    .mortgage_col {
+        width: 100%;
+    }
     .mortgage_class_left_block {
+        font-size: 20px;
         width: 100%;
     }
     .morgage__ipoteka__class {

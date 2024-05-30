@@ -18,17 +18,17 @@ const AddInformationBlock = () => (
 
       <div className="addBlocks">
         <div className="addBlocks__container">
-          <div>
+          <div className="banner__container">
             <a href="http://government.ru/">
-              <img src="img/pravitelstvo.svg" alt="Правительсво РФ" />
+              <img src="img/pravitelstvo.svg" alt="Правительсво РФ"/>
             </a>
           </div>
-          <div>
+          <div className="banner__container">
             <a href="https://minstroyrf.gov.ru/">
               <img src="img/minstroi.svg" alt="Минстрой РФ" />
             </a>
           </div>
-          <div>
+          <div className="banner__container">
             <a href="https://rtyva.ru/">
               <img
                 src="img/pravitelstvoRt.svg"
@@ -36,17 +36,17 @@ const AddInformationBlock = () => (
               />
             </a>
           </div>
-          <div>
+          <div className="banner__container">
             <a href="https://minstroy.rtyva.ru/">
               <img src="img/minstroiRt.svg" alt="Минстрой РТ" />
             </a>
           </div>
-          <div>
+          <div className="banner__container">
             <a href="https://www.mkyzyl.ru/">
               <img src="img/meriaKz.svg" alt="Мэрия Кызыл" />
             </a>
           </div>
-          <div>
+          <div className="banner__container">
             <a href="https://mkyzyl.ru/about/stroi/">
               <img
                 src="img/kapstroiKz.svg"

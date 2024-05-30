@@ -142,9 +142,13 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: 100%;
     }
     .card__contact {
         width: 100%;
+    }
+    .card__contact h3 {
+        font-size: 20px;
     }
     .Form_contactsBlock {
         width: 100%;
@@ -154,24 +158,32 @@
     .Container_contactsBlock_second {
         width: 100%;
     }
-    .ContactsBlock_second_block {}
+    .ContactsBlock_second_block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
     .Location_class {
-        width: 50%;
+        width: 100%;
+        height: 50%;
     }
     .Location_class_paragraph {
-        font-size: 10px;
+        font-size: 15px;
     }
     .Phone_class {
-        width: 50%;
+        width: 100%;
+        height: 50%;
     }
     .Phone_class_paragraph {
-        font-size: 10px;
+        font-size: 15px;
     }
     .Email_class {
-        width: 50%;
+        width: 100%;
+        height: 50%;
     }
     .Email_class_paragraph {
-        font-size: 10px
+        font-size: 15px
     }
     .Form_contactsBlock_Button {
         width: 100%;
