@@ -10,9 +10,10 @@ p {
     font-family: "Playfair Display", serif;
 }
 
-* {
+
+/* * {
     border: 1px green solid !important;
-}
+} */
 
 @media (prefers-color-scheme: light) {
      :root {
