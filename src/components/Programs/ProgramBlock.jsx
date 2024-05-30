@@ -76,10 +76,7 @@ const ProgramBlock = () => {
       <div className="programs__term" style={{ marginTop: "20px" }}>
         {[1, 2, 3].map((item) => {
           return <div
-            className="programs__term__card"
-            style={{ background: "#F1F2F4" }}
-            bordered={false}
-          >
+            className="programs__term__card" style={{ background: "#F1F2F4" }} bordered={false}>
             <div className="div__term">
               <div className="term__consultation__class">
                 <p style={{fontWeight:"bold"}}>Подача до</p>
@@ -104,56 +101,3 @@ const ProgramBlock = () => {
 };
 
 export default ProgramBlock;
-
-{
-  /* <Row gutter={18} className="second_table_programs" style={{gap: "30px"}}>
-                <Col span={7} style={{ display: "flex", flexDirection: "row" }}>
-                    <div className="Card_programs_block" style={{width: "100%", background: "#F1F2F4",}} bordered={false} >
-                        <h3>Подача до</h3>
-                        <p>31.01.2025</p>
-                        <Button type="primary">
-                            Консультация
-                        </Button>
-                    </div>
-                    <Card className="Card_programs_block" bordered={false}>
-                        <h3>Действует до </h3>
-                        <p>31.01.2025</p>
-                        <Button>
-                            О программе
-                        </Button>
-                    </Card>
-                </Col>
-                <Col span={8} style={{ display: "flex", flexDirection: 'row' }}>
-                    <Card className="Card_programs_block" style={{width: "100%"}} bordered={false}>
-                        <h3>Подача до</h3>
-                        <p>31.01.2025</p>
-                        <Button type="primary">
-                            Консультация
-                        </Button>
-                    </Card>
-                    <Card className="Card_programs_block" bordered={false}>
-                        <h3>Действует до </h3>
-                        <p>31.01.2025</p>
-                        <Button>
-                            О программе
-                        </Button>
-                    </Card>
-                </Col>
-                <Col span={7} style={{ display: "flex", flexDirection: "row" }}>
-                    <Card className="Card_programs_block" style={{width: "100%"}} bordered={false}>
-                        <h3>Подача до</h3>
-                        <p>31.01.2025</p>
-                        <Button type="primary">
-                           Консультация
-                        </Button>
-                    </Card>
-                    <Card className="Card_programs_block" bordered={false}>
-                        <h3>Действует до </h3>
-                        <p>31.01.2025</p>
-                        <Button>
-                           О программе
-                        </Button>
-                    </Card>
-                </Col>
-            </Row> */
-}

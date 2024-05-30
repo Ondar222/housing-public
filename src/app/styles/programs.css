@@ -65,11 +65,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 10px;
 }
 
-.programs__term__col {}
+.programs__term__col {
+    width: 100%;
+}
 
 .programs__term__card {
+    max-width: 100%;
+    height: 100%;
     border-radius: 6px;
     padding: 10px 20px;
 }
@@ -248,7 +253,7 @@
     /* background-color: #2091F9; */
     transition: 1s;
     cursor: pointer;
-    /* min-width: 200px; */
+    min-width: 300px;
     width: 100%;
     height: 100%;
     -webkit-transition: all 1s ease;
@@ -256,6 +261,7 @@
     -o-transition: all 1s ease;
     transition: all 1s ease;
     overflow: hidden;
+    font-size: 20px;
 }
 
 .second_card_cardprog:hover {
