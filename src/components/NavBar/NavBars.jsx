@@ -7,6 +7,11 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [open, setOpen] = useState(false);
 
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight
+  });
+
   const closeNav = () => {
     setNav(false)
   }
@@ -21,21 +26,45 @@ const Navbar = () => {
     ;
   }, [nav])
 
+  useEffect(() => {
+    if (windowSize.width > 800) {
+      setNav(false)
+    }
+  }, [windowSize.width])
+
+  useEffect(() => {
+
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    }
+
+    window.addEventListener('resize', handleResize);
+
+    // Удаляем слушатель при размонтировании компонента
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [])
+
   return (
     <header className="header">
       <div className="container__navbar">
         <div className="box">
+          
           <div className="logo_image">
             <img src="/favicon.png" alt="/" width={60} height={60} />
           </div>
 
           <ul className={nav ? "menu active" : "menu"} >
+            
             <li style={{
-              display: nav ? "block" : "none",
-
+              display: nav ? "block" : "none"
             }}>
-              <img src="/favicon.png" height={50} />
-              <Typography.Title level={3} style={{
+              <img src="/favicon.png" height={70} />
+              <Typography.Title level={3} fontWeight={800} style={{
                 whiteSpace: "nowrap"
               }}>ИС жилищных программ</Typography.Title>
             </li>
@@ -73,6 +102,7 @@ const Navbar = () => {
                   viewBox="0 0 200 200"
                   width="200"
                 >
+
                   <title />
                   <path d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z" />
                 </svg>
