@@ -1,6 +1,7 @@
 import { Col, Row, Flex } from "antd";
 import React from "react"
 import { Link } from "react-router-dom";
+import { EnvironmentOutlined, MobileOutlined, MailOutlined } from "@ant-design/icons";
 
 const Footer = () => {
     return (
@@ -24,7 +25,7 @@ const Footer = () => {
                         </Row>
                         <Row align={"middle"} gutter={[16, 16]}>
                             <Col>
-                                <img src="/img/location-icon.svg" height={30} />
+                                <EnvironmentOutlined />
                             </Col>
                             <Col>
                                 <Link className="footer_location_text" href="/"> г. Кызыл, ул. Бухтуева 3</Link>
@@ -32,10 +33,21 @@ const Footer = () => {
                         </Row>
                         <Row align={"middle"} gutter={[16, 16]}>
                             <Col>
-                                <img src="/img/mobile-icon.svg" height={30} />
+                                <MobileOutlined />
                             </Col>
                             <Col>
-                                <Link className="footer_mobile_text" href="/"> (239) 555-0108</Link>
+                                <a className="footer_mobile_text" href="tel:+73942230305">+7 394 223-03-05
+                                </a>
+                            </Col>
+                        </Row>
+
+                        <Row align={"middle"} gutter={[16, 16]}>
+                            <Col>
+                                <MailOutlined />
+                            </Col>
+                            <Col>
+                                <a className="footer_mobile_text" href="mailto:dagizo@rtyva.ru">dagizo@rtyva.ru
+                                </a>
                             </Col>
                         </Row>
                     </Flex>
@@ -76,101 +88,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from "react"
-// import { Col, Row } from "antd";
-// import { TwitterOutlined, FacebookOutlined, LinkedinOutlined } from "@ant-design/icons";
-
-// const Footer = () => {
-//     return (<div className="footer">
-//         <div className="container_footer">
-//             <Row gutter={[16, 24]}>
-//                 <Col className="gutter-row" span={5}>
-//                     <div className="text_class_footer">
-//                         <h2>Pages</h2>
-//                         <Link to="/">Home</Link>
-//                         <Link to="/">Product</Link>
-//                         <Link to="/">Pricing</Link>
-//                         <Link to="/">About</Link>
-//                         <Link to="/">Contact</Link>
-//                     </div>
-//                 </Col>
-//                 <Col className="gutter-row" span={5}>
-//                     <div className="text_class_footer" >
-//                         <h2>Tomothy</h2>
-//                         <Link to="/"> Eleanor Edwards</Link>
-//                         <Link to="/">Ted Robertson</Link>
-//                         <Link to="/">Annette Russell</Link>
-//                         <Link to="/">Jennie Mckinney</Link>
-//                         <Link to="/">Gloria Richards</Link>
-//                     </div>
-//                 </Col>
-//                 <Col className="gutter-row" span={5}>
-//                     <div className="text_class_footer">
-//                         <h2 >Jane Black</h2>
-//                         <Link to="/">  Philip Jones</Link>
-//                         <Link to="/">Product</Link>
-//                         <Link to="/">Colleen Russell</Link>
-//                         <Link to="/">Marvin Hawkins</Link>
-//                         <Link to="/">Bruce Simmmons</Link>
-//                     </div>
-//                 </Col>
-//                 <Col span={9}>
-//                     <div className="first_block_footer">
-//                         <div className="location_class">
-//                             <img src="/img/location-icon.svg" width={46} height={46} />
-//                             <Link to="/"> 7480 Mockingbird Hill undefined</Link>
-//                         </div>
-
-//                         <div className="phone_class">
-//                             <img src="/img/mobile-icon.svg" width={46} height={46} />
-//                             <Link to="/"> (239) 555-0108</Link>
-//                         </div>
-
-//                         <div style={{ display: "flex", flexDirection: "row", gap: "20px" }}>
-
-//                         </div>
-//                     </div>
-//                 </Col>
-
-
-
-//             </Row>
-//         </div>
-
-//     </div>
-
-//     )
-// }
-
-// export default Footer;

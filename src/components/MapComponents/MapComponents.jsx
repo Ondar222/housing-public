@@ -1,27 +1,32 @@
 import React from "react";
 import { EnvironmentOutlined, MobileOutlined, MailOutlined } from "@ant-design/icons";
+import { Col, Flex, Row } from "antd";
 
 
 const MapComponents = () => {
-    return ( 
-         <div className="Container_contactsBlock_second">
-    <div className="ContactsBlock_second_block">
-        <div className="Location_class">
-            <EnvironmentOutlined classID="Location_logo" style={{ justifyContent: "center", color: "#2091F9" }} />
-            <p className="Location_class_paragraph" > Республика Тыва, Кызыл, ул. Бухтуева 3</p>
-        </div>
+    return (
+        <Flex vertical gap={20} style={{
+            width: "100%"
+        }}>
+            <Flex gap={10}>
+                <EnvironmentOutlined />
+                <a>гор. Кызыл, ул. Бухтуева 3</a>
+            </Flex>
 
-        <div className="Phone_class">
-            <MobileOutlined className="Phone_logo" />
-            <p className="Phone_class_paragraph">(843) 555-0130</p>
-        </div>
-        <div className="Email_class">
-            <MailOutlined className="Email_class_logo" />
-            <p className="Email_class_paragraph">default@mail.ru</p>
-        </div>
-    </div>
-    <iframe className="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Af32982bf83712a6d5245f0c0232bbe7c617742dfecc3bfc1d5323da550c22e15&amp;source=constructor" width="100%" height="400"></iframe>
-</div> );
+
+            <Flex gap={10}>
+                <MobileOutlined />
+                <a href="tel:+73942230305">+7 394 223-03-05</a>
+            </Flex>
+
+
+            <Flex gap={10}>
+                <MailOutlined />
+                <a href="mailto:dagizo@rtyva.ru">dagizo@rtyva.ru</a>
+            </Flex>
+
+            <iframe className="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Af32982bf83712a6d5245f0c0232bbe7c617742dfecc3bfc1d5323da550c22e15&amp;source=constructor" width="100%" height="400"></iframe>
+        </Flex>);
 }
- 
+
 export default MapComponents;

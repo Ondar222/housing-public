@@ -53,17 +53,16 @@ const Navbar = () => {
     <header className="header">
       <div className="container__navbar">
         <div className="box">
-          
+
           <div className="logo_image">
             <img src="/favicon.png" alt="/" width={60} height={60} />
           </div>
 
           <ul className={nav ? "menu active" : "menu"} >
-            
             <li style={{
               display: nav ? "block" : "none"
             }}>
-              <img src="/favicon.png" height={70} />
+              {nav && <img src="/favicon.png" height={70} />}
               <Typography.Title level={3} fontWeight={800} style={{
                 whiteSpace: "nowrap"
               }}>ИС жилищных программ</Typography.Title>
