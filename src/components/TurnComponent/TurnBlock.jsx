@@ -38,7 +38,7 @@ const TurnBlock = () => {
           />
         </div>
 
-        <Modal open={isOpen} onCancel={() => setIsOpen(false)}>
+        <Modal open={isOpen} onCancel={() => setIsOpen(false)} footer={null}>
           <Snils />
         </Modal>
       </Row>
