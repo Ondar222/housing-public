@@ -20,7 +20,7 @@ const MapComponents = () => {
             <p className="Email_class_paragraph">default@mail.ru</p>
         </div>
     </div>
-    <iframe className="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad153a0ca85b2bf7d06720a69f8a45f52f5619b51eb74a3720804d8a2c50ff3b6&amp;source=constructor" width="100%" height="400"></iframe>
+    <iframe className="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Af32982bf83712a6d5245f0c0232bbe7c617742dfecc3bfc1d5323da550c22e15&amp;source=constructor" width="100%" height="400"></iframe>
 </div> );
 }
  
