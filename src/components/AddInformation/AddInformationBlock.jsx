@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card } from "antd";
+import { Link } from "react-router-dom";
 
 const AddInformationBlock = () => (
   <div>
@@ -13,46 +14,46 @@ const AddInformationBlock = () => (
       </div>
 
       <Button className="button_Vk" type="primary">
-        <a href="https://vk.com/mkyzyl_100"> Сообщество Вк</a>
+        <Link to="https://vk.com/mkyzyl_100"> Сообщество Вк</Link>
       </Button>
 
       <div className="addBlocks">
         <div className="addBlocks__container">
           <div className="banner__container">
-            <a href="http://government.ru/">
+            <Link to="http://government.ru/">
               <img src="img/pravitelstvo.svg" alt="Правительсво РФ"/>
-            </a>
+            </Link>
           </div>
           <div className="banner__container">
-            <a href="https://minstroyrf.gov.ru/">
+            <Link to="https://minstroyrf.gov.ru/">
               <img src="img/minstroi.svg" alt="Минстрой РФ" />
-            </a>
+            </Link>
           </div>
           <div className="banner__container">
-            <a href="https://rtyva.ru/">
+            <Link to="https://rtyva.ru/">
               <img
                 src="img/pravitelstvoRt.svg"
                 alt="Правительство РТ"
               />
-            </a>
+            </Link>
           </div>
           <div className="banner__container">
-            <a href="https://minstroy.rtyva.ru/">
+            <Link to="https://minstroy.rtyva.ru/">
               <img src="img/minstroiRt.svg" alt="Минстрой РТ" />
-            </a>
+            </Link>
           </div>
           <div className="banner__container">
-            <a href="https://www.mkyzyl.ru/">
+            <Link to="https://www.mkyzyl.ru/">
               <img src="img/meriaKz.svg" alt="Мэрия Кызыл" />
-            </a>
+            </Link>
           </div>
           <div className="banner__container">
-            <a href="https://mkyzyl.ru/about/stroi/">
+            <Link to="https://mkyzyl.ru/about/stroi/">
               <img
                 src="img/kapstroiKz.svg"
                 alt="Департамент капитального строительства Кызыла "
               />
-            </a>
+            </Link>
           </div>
         </div>
 

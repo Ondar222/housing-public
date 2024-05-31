@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Card } from "antd";
 import { RightOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 const tabListNoTitle = [
   {
@@ -138,10 +139,10 @@ const DescriptionProgramsBlock = () => {
             type="primary"
             style={{ background: "#1677ff" }}
           >
-            <a href="/"> Подать заявку</a>
-            <a href="/">
+            <Link to="/"> Подать заявку</Link>
+            <Link to="/">
               <RightOutlined />
-            </a>
+            </Link>
           </Button>
         }
         onTabChange={onTab2Change}

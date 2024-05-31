@@ -8,11 +8,9 @@ const TurnPage = () => {
     return (
         <div className="turn_page_class" >
             <TurnBlock />
-            <Snils />
+            {/* <Snils /> */}
             <AddInformationBlock />
         </div>
-
-
     )
 }
 

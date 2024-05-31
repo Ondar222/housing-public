@@ -2,7 +2,7 @@ import React from "react";
 import { Form, Input, Button } from "antd";
 import { Card } from "antd";
 import MapComponents from "../MapComponents/MapComponents";
-
+import { Link } from "react-router-dom";
 
 const ContactsBlock = () => {
   const onFinish = (value) => {
@@ -25,9 +25,9 @@ const ContactsBlock = () => {
             htmlType="submit"
             className="Form_contactsBlock_Button"
           >
-            <a className="contact__btn__href" href="/">
+            <Link className="contact__btn__href" href="/">
                   Отправить
-            </a>
+            </Link>
         
           </Button>
         </Form>

@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Flex } from "antd";
 import { CheckOutlined } from "@ant-design/icons";
 import { Image } from "antd";
+import { Link } from "react-router-dom";
 
 const HousingProgramsBlocks = () => {
   return (
@@ -30,16 +31,16 @@ const HousingProgramsBlocks = () => {
               type="primary"
             >
               <div className="checkOutlined_class">
-                <CheckOutlined style={{width: "20px", height: "20px"}} />
+                <CheckOutlined style={{ width: "20px", height: "20px" }} />
               </div>
-              <a className="btn__application__text" href="/programs">
+              <Link className="btn__application__text" to="/programs">
                 Подать заявку
-              </a>
+              </Link>
             </Button>
             <Button className="programs_button_queue_application" href="/queue">
-              <a className="btn__queue__text" href="/queue">
+              <Link className="btn__queue__text" to="/queue">
                 Моя очередь
-              </a>
+              </Link>
             </Button>
           </Flex>
         </div>

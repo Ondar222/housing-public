@@ -7,8 +7,8 @@
 
 .titleBlock_addInfo {
     text-align: center;
-    width: 762px;
-    height: 222px;
+    /* width: 762px; */
+    /* height: 222px; */
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -30,21 +30,24 @@
 }
 
 .addBlocks__container {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .banner__container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    width: 33.3%;
+
 }
 
 .addBlocks__container img {
     width: 100%;
     height: 100%;
+    max-height: 100px;
 }
 
 .button_Vk {
@@ -69,11 +72,6 @@
     .addBlocks {
         width: 100%;
     }
-    .addBlocks__container {
-        display: grid;
-        max-width: 100%;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     .addBlocks__container div {
         width: 100%;
         height: 100%;
@@ -82,21 +80,12 @@
         width: 100%;
         height: 100%;
     }
+    .banner__container {
+        width: 100% !important;
+    }
     .button_Vk {
         max-width: 100%;
         max-height: 100%;
-    }
-    .titleBlock_addInfo {
-        width: 100%;
-        height: 100%;
-    }
-    .titleBlock_addInfo h1 {
-        font-size: 20px !important;
-        width: 100%;
-    }
-    .titleBlock_addInfo p {
-        font-size: 20px !important;
-        width: 100%;
     }
     .addBlocks {
         display: flex;
@@ -107,5 +96,11 @@
     }
     .button_Vk {
         height: 50px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .banner__container {
+        width: 50%;
     }
 }

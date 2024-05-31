@@ -51,3 +51,12 @@ body {
     }
     body {}
 }
+
+.container {
+    width: 100%;
+    padding: 50px 10%;
+}
+
+.no-scroll {
+    overflow: hidden;
+}

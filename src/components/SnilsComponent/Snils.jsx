@@ -5,8 +5,6 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { PDFDocument } from 'pdf-lib';
 
-
-
 const MyFormItemContext = React.createContext([]);
 function toArr(str) {
   return Array.isArray(str) ? str : [str];
