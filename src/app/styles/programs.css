@@ -29,7 +29,7 @@
 }
 
 .programs_info_block_title_block p {
-    color: #d9d9d9;
+    color: #333;
     font-size: 20px;
     height: 100%;
     font-weight: normal;
@@ -432,7 +432,6 @@
     .programs_flex_application {
         margin: 0;
     }
-
     .conditions {
         font-size: 7px;
     }
@@ -459,13 +458,11 @@
     .programs_img_class {
         /* display: none; */
     }
-
     .second_block_programs>div {
         width: 100% !important;
         max-width: 100% !important;
         height: 100%;
     }
-
     .card__federal {
         width: 100% !important;
         height: 100%;
@@ -706,7 +703,6 @@
     .btn__description {
         display: none !important;
     }
-
     .second_block_programs>div {
         width: 40%;
         height: 100%;

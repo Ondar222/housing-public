@@ -13,7 +13,18 @@ const ContactsBlock = () => {
 
     <div className="Container_contactsBlock">
       <Row gutter={[16, 16]} style={{width: "100%"}}>
-        <Col span={12}>
+        <Col 
+         span={6}
+         xs={{
+           span: 24
+         }}
+         sm={{
+           span: 10
+         }}
+         md={{
+           span: 12
+         }}
+        >
           <Card className="card__contact">
             <h3>Напишите нам</h3>
             <Form className="Form_contactsBlock" onFinish={onFinish}>
@@ -36,7 +47,16 @@ const ContactsBlock = () => {
             </Form>
           </Card>
         </Col>
-        <Col span={12}>
+        <Col     span={6}
+         xs={{
+           span: 24
+         }}
+         sm={{
+           span: 10
+         }}
+         md={{
+           span: 12
+         }}>
           <MapComponents />
         </Col>
       </Row>

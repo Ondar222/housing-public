@@ -191,5 +191,7 @@
     .add {
         display: none;
     }
-    .map {}
+    .map {
+        width: 100% !important;
+    }
 }

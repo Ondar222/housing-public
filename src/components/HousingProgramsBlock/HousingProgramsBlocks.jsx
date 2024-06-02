@@ -14,7 +14,7 @@ const HousingProgramsBlocks = () => {
         <div className="programs_info_block_title_block">
           <div className="programs_buttons_container">
             <h1 style={{ fontWeight: "bold" }}>
-              Информационная программа жилищных государственных программ Мэрии
+              Информационная система жилищных государственных программ Мэрии
               г.Кызыл
             </h1>
             <p>

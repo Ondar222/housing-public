@@ -5,7 +5,18 @@ import { Col, Flex, Row } from "antd";
 
 const MapComponents = () => {
     return (
-        <Flex vertical gap={20} style={{
+        <Flex vertical gap={20}
+        span={6}
+        xs={{
+          span: 24
+        }}
+        sm={{
+          span: 10
+        }}
+        md={{
+          span: 12
+        }}
+         style={{
             width: "100%"
         }}>
             <Flex gap={10}>
@@ -24,8 +35,20 @@ const MapComponents = () => {
                 <MailOutlined />
                 <a href="mailto:dagizo@rtyva.ru">dagizo@rtyva.ru</a>
             </Flex>
+              <Flex
+                    span={6}
+                    xs={{
+                      span: 24
+                    }}
+                    sm={{
+                      span: 10
+                    }}
+                    md={{
+                      span: 12
+                    }}>
 
             <iframe className="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Af32982bf83712a6d5245f0c0232bbe7c617742dfecc3bfc1d5323da550c22e15&amp;source=constructor" width="100%" height="400"></iframe>
+              </Flex>
         </Flex>);
 }
 

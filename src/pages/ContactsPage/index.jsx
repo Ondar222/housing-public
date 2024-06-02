@@ -34,7 +34,6 @@ const ContactsPage = () => {
   return (
     <div className="contact__page">
       <ContactsBlock />
-
       <AddInformationBlock />
     </div>
   );
