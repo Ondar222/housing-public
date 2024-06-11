@@ -4,6 +4,7 @@ import Mortgage from "../../components/MortgageBlock/Mortgage";
 import AddInformationBlock from "../../components/AddInformation/AddInformationBlock";
 import DescriptionProgramsBlock from "../../components/DescriptionPrograms/DescriptionProgramsBlock";
 import ActionBlock from "../../components/PerfomAction/ActionBlock";
+import EmergencyHousing from "../../components/Emergency/EmergencyHousing";
 
 const HousingProgramsPage = () => {
   return (
@@ -19,7 +20,7 @@ const HousingProgramsPage = () => {
       <CatalogProgComponents />
       <Mortgage />
       <DescriptionProgramsBlock />
-      <ActionBlock />
+      <EmergencyHousing />
       <AddInformationBlock />
     </div>
   );
