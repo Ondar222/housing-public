@@ -172,7 +172,7 @@ const CatalogProgComponents = () => {
           </Button>
         </Card>
 
-        <Card bordered={true} style={{display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%"}}>
+        <Card bordered={true} style={{display: "flex", flexDirection: "column", height: "100%"}}>
           <div>
             <h3 className="second_card_cardprog_heading_prog">
               Переселение из аварийного жилья

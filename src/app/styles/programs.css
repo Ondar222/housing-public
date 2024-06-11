@@ -617,6 +617,10 @@
         font-size: 20px;
         font-weight: normal;
     }
+    .second_card_cardprog {
+        display: flex;
+        flex-direction: column;
+    }
     .block_catalogs_programs {
         display: flex !important;
         flex-direction: column !important;
