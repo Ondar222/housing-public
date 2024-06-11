@@ -166,7 +166,7 @@ const InteractiveMap = () => {
         />
         </Table>
       </Table>
-      <Link to='/./excelDoc/AvarDoc.xlsx' target="_blank">Загрузить файл</Link>
+      <Link to='/./excelDoc/AvarDoc.xlsx' target="_blank" style={{color: "blue"}}>Загрузить файл</Link>
     </div>
   );
 };
