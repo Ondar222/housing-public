@@ -87,36 +87,34 @@ const EmergencyHousing = () => {
     setActiveTabKey2(key);
   };
   return (
-    <>
-      <br />
-      <br />
-      <Card
-        className="description__card__info"
-        style={{
-          width: "100%",
-        }}
-        tabList={tabListNoTitle}
-        activeTabKey={activeTabKey2}
-        tabBarExtraContent={
-          <Button
-            className="btn__description"
-            type="primary"
-            style={{ background: "#1677ff" }}
-          >
-            <Link to="/"> Подать заявку</Link>
-            <Link to="/">
-              <RightOutlined />
-            </Link>
-          </Button>
-        }
-        onTabChange={onTab2Change}
-        tabProps={{
-          size: "middle",
-        }}
-      >
-        {contentListNoTitle[activeTabKey2]}
-      </Card>
-    </>
+      <>
+        <h1>Переселение из ветхого и аварийного жилья</h1>
+        <Card
+            className="description__card__info"
+            style={{
+                width: "100%",
+                height: "350px",
+                overflow: "auto"
+            }}
+            tabList={tabListNoTitle}
+            activeTabKey={activeTabKey2}
+            tabBarExtraContent={
+              <Button
+                  // className="btn__description"
+                  type="primary"
+                  style={{background: "#1677ff"}}
+              >
+                <Link to="/"> Подать заявку</Link>
+              </Button>
+            }
+            onTabChange={onTab2Change}
+            tabProps={{
+              size: "middle",
+            }}
+        >
+          {contentListNoTitle[activeTabKey2]}
+        </Card>
+      </>
   );
 };
 export default EmergencyHousing;
