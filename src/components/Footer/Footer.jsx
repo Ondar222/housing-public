@@ -36,7 +36,7 @@ const Footer = () => {
                                 <MobileOutlined />
                             </Col>
                             <Col>
-                                <a className="footer_mobile_text" href="tel:+73942230305">+7 394 223-03-05
+                                <a className="footer_mobile_text" href="tel:+73942230305">+7 394 223 38 87
                                 </a>
                             </Col>
                         </Row>

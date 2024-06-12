@@ -27,7 +27,7 @@ const MapComponents = () => {
 
             <Flex gap={10}>
                 <MobileOutlined />
-                <a href="tel:+73942230305">+7 394 223-03-05</a>
+                <a href="tel:+73942230305">+7 394 223 38 87</a>
             </Flex>
 
 
