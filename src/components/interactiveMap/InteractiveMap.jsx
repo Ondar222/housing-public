@@ -1,7 +1,7 @@
 import React from "react";
 import { Map, Marker, NavigationControl } from "react-map-gl";
 import "antd/dist/reset.css";
-import { Table } from "antd";
+import { Table, Col } from "antd";
 import { Link } from "react-router-dom";
 
 const { Column } = Table;
@@ -141,19 +141,31 @@ const data = [
 
 const InteractiveMap = () => {
   return (
-    <div>
+    <Col className="interactiveMap"
+    span={6}
+    xs={{
+      span: 24
+    }}
+    sm={{
+      span: 10
+    }}
+    md={{
+      span: 24
+    }}
+    >
       <iframe
         src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa0461b19f7cbda03ab680f4fb6f08d49c1f337cfb62aa6dfaa7876086af3a5b4&amp;source=constructor"
         width="100%"
         height="368"
         frameborder="0"
       ></iframe>
-
-      <Table dataSource={data} pagination={false}>
+        
+        <Col>
+      <Table className="table__interactive" dataSource={data} pagination={false}>
         <Column title="Регион" dataIndex="region" key="region" />
         <Column title="Адрес" dataIndex="address" key="address" />
         <Column title="Год" dataIndex="year" key="year" />
-        <Table title={"Заключение специализированной организации, проводившей обследование многоквартирного дома"} dataSource={data} pagination={false}>
+        <Table className="table__title__interactive" title={"Заключение специализированной организации, проводившей обследование многоквартирного дома"} dataSource={data} pagination={false}>
         <Column
           title="наименование специализированной организации"
           dataIndex="name"
@@ -166,8 +178,9 @@ const InteractiveMap = () => {
         />
         </Table>
       </Table>
+      </Col>
       <Link to='/./excelDoc/AvarDoc.xlsx' target="_blank" style={{color: "blue"}}>Загрузить файл</Link>
-    </div>
+    </Col>
   );
 };
 

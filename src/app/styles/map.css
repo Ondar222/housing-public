@@ -1,0 +1,9 @@
+@media(max-width: 430px) {
+    .interactiveMap {}
+    .table__interactive {
+        display: none;
+    }
+    .table__title__interactive {
+        display: none;
+    }
+}
